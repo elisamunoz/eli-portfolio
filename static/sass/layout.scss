@@ -1,0 +1,19 @@
+$navSize: 200px;
+
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: $navSize;
+    background: $themeColor;
+}
+
+.content {
+    position: fixed;
+    left: $navSize;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    background: yellow;
+}

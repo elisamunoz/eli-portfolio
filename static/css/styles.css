@@ -1,0 +1,29 @@
+:root {
+    --nav-size: 300px;
+}
+
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: var(--nav-size);
+    background: red;
+    margin-left: calc(-1 * var(--nav-size));
+    z-index: 10;
+    transition: margin-left 0.5s ease;
+}
+.navigation.isOpen{
+    background: blue;
+    margin-left: 0;
+}
+
+.content {
+    position: fixed;
+    left: 0px;
+    /* left: var(--nav-size); */
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    background: yellow;
+}
