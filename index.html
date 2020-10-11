@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="./static/css/styles.css">
 </head>
 <body>
+    <!-- Navigation Menu -->
     <nav id='navigation' class='navigation'>
         <div class="navigation__content">
-            <div class="navigation__content__close-btn" onclick="toggleMenu()"></div>
+            <div class="content__btn navigation__content__close-btn" onclick="toggleMenu()"></div>
             <div class="navigation__content__profile-img"> </div>
             <div class="navigation__content__link">
                 <a class="navigation__content__link__text" href="#">Home</a>
@@ -24,11 +25,46 @@
         </div>
     </nav>
 
-    <div class='content'>
-        <button onclick="toggleMenu()">
-            open menu
-        </button>
-        bb
+     <!-- Navigation Menu -->
+
+
+     <!-- Body -->
+    <div class='body'>
+        <!-- Menu Button -->
+        <div class="body__content">
+            <section class="content__btn body__content__menu-btn" onclick="toggleMenu()"></section>
+        <!-- /Menu Button -->
+
+            <!-- Home -->
+            <section id="home" class="home vertical-center">
+                <div class="home__text">
+                    <h1 class="home__text__title">
+                        Hi there, I'm Elisa!
+                    </h1>
+                    <h3 class="home__text__subtitle">
+                            I’m a Junior Software Developer looking for my first job in IT. I have just graduated from the Code Institute in Ireland.
+                    </h3>
+                    <button class="home__text__btn">
+                        Download my Resume
+                    </button>
+                </div>
+            </section>
+            <!-- /Home -->
+
+            <!-- Projects -->
+            <section id="projects">
+                <div class="projects__card">
+                    <div class=projects__card__image"></div>
+                    <div class="projects__card__title">
+                        <h4>The Huemul Organization</h4>
+                        <p>The Huemul Organization is a NGO created to conserve the endangered Huemul in Chilean Patagonia.</p>
+                        <button>More Info</button>
+                    </div>
+                </div>
+            </section>
+            <!--/Projects -->
+
+        </div>
     </div>
 
     <script rel="script" src="./static/js/scripts.js" ></script>

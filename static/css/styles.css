@@ -1,10 +1,15 @@
+/* Constants */
+
 :root {
     --nav-size: 300px;
-    --profile-img: 250px;
+    --profile-img: 120px;
     --border-rounded: 50%;
 
     --main-color: #000000;
 }
+
+
+/* CSS rules applied to more than one element */
 
 *,
 a:hover {
@@ -15,6 +20,27 @@ html,
 body {
     color: var(--main-color);
 }
+
+.vertical-center {
+    display: flex;
+    flex-grow: 1;
+    align-self: center;
+  }
+
+.navigation__content,
+.body__content {
+    position: relative;
+}
+
+.content__btn {
+    position: absolute;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+
+/* Navigation bar */
 
 .navigation {
     position: fixed;
@@ -28,25 +54,15 @@ body {
     transition: margin-left 0.5s ease;
 }
 .navigation.isOpen{
-    background: blue;
     margin-left: 0;
 }
 
-.navigation__content {
-    position: relative;
-}
 
 .navigation__content__close-btn {
-    position: absolute;
     background-image: url("/static/images/cross.png");
-    background-size: cover;
-    height: 85px;
-    width: 85px;
-    right: 0;
-    top: -45px;
+    right: 10px;
+    top: -35px;
 }
-
-
 
 .navigation__content__profile-img {
     background: white;
@@ -60,15 +76,43 @@ body {
     color: var(--main-color);
     display: block;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
-.content {
+
+/* Website content */
+
+.body {
     position: fixed;
     left: 0px;
-    /* left: var(--nav-size); */
     top: 0%;
     right: 0;
     bottom: 0;
     background: yellow;
 }
+
+.body__content__menu-btn {
+    background-image: url("/static/images/menu.png");
+    left: 10px;
+    top: 10px;
+}
+
+
+/* Home */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: grey;
+}
+
+.home__text {
+    margin: auto;
+}
+
+
+.projects {
+    min-width: 100vh;
+    background: powderblue;
+}
+
