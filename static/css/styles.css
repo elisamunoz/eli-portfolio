@@ -1,5 +1,19 @@
 :root {
     --nav-size: 300px;
+    --profile-img: 250px;
+    --border-rounded: 50%;
+
+    --main-color: #000000;
+}
+
+*,
+a:hover {
+  text-decoration: none;
+}
+
+html,
+body {
+    color: var(--main-color);
 }
 
 .navigation {
@@ -16,6 +30,37 @@
 .navigation.isOpen{
     background: blue;
     margin-left: 0;
+}
+
+.navigation__content {
+    position: relative;
+}
+
+.navigation__content__close-btn {
+    position: absolute;
+    background-image: url("/static/images/cross.png");
+    background-size: cover;
+    height: 85px;
+    width: 85px;
+    right: 0;
+    top: -45px;
+}
+
+
+
+.navigation__content__profile-img {
+    background: white;
+    border-radius: var(--border-rounded);
+    width: var(--profile-img);
+    height: var(--profile-img);
+    margin: 45px auto;
+}
+
+.navigation__content__link__text {
+    color: var(--main-color);
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
 }
 
 .content {

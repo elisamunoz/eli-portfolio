@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Eli's Portfolio</title>
+    <link rel="icon"  type="image/ico" href="./static/images/chicken.png">
 
     <link rel="stylesheet" href="./static/css/normalize.css">
     <link rel="stylesheet" href="./static/css/styles.css">
 </head>
 <body>
     <nav id='navigation' class='navigation'>
-        <button onclick="toggleMenu()">
-            close
-        </button>
+        <div class="navigation__content">
+            <div class="navigation__content__close-btn" onclick="toggleMenu()"></div>
+            <div class="navigation__content__profile-img"> </div>
+            <div class="navigation__content__link">
+                <a class="navigation__content__link__text" href="#">Home</a>
+                <a class="navigation__content__link__text" href="#">Projects</a>
+                <a class="navigation__content__link__text" href="#">About me</a>
+                <a class="navigation__content__link__text" href="#">Contact me</a>
+            </div>
+        </div>
     </nav>
 
     <div class='content'>
