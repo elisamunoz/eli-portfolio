@@ -3,7 +3,7 @@
 :root {
     --nav-size: 300px;
     --profile-img: 120px;
-    --border-rounded: 50%;
+    --border-circle: 50%;
 
     --main-color: #000000;
 }
@@ -21,19 +21,21 @@ body {
     color: var(--main-color);
 }
 
+h1 {
+    margin: 0;
+}
+
 .vertical-center {
     display: flex;
     flex-grow: 1;
     align-self: center;
   }
 
-.navigation__content,
-.body__content {
+.navigation__content {
     position: relative;
 }
 
-.content__btn {
-    position: absolute;
+.menu-close-btn {
     background-size: cover;
     height: 40px;
     width: 40px;
@@ -59,6 +61,7 @@ body {
 
 
 .navigation__content__close-btn {
+    position: absolute;
     background-image: url("/static/images/cross.png");
     right: 10px;
     top: -35px;
@@ -66,7 +69,7 @@ body {
 
 .navigation__content__profile-img {
     background: white;
-    border-radius: var(--border-rounded);
+    border-radius: var(--border-circle);
     width: var(--profile-img);
     height: var(--profile-img);
     margin: 45px auto;
@@ -83,15 +86,12 @@ body {
 /* Website content */
 
 .body {
-    position: fixed;
-    left: 0px;
-    top: 0%;
-    right: 0;
-    bottom: 0;
+    position: relative;
     background: yellow;
 }
 
-.body__content__menu-btn {
+.body__menu-btn {
+    position: fixed;
     background-image: url("/static/images/menu.png");
     left: 10px;
     top: 10px;
@@ -111,8 +111,16 @@ body {
 }
 
 
-.projects {
-    min-width: 100vh;
-    background: powderblue;
+/* My projects */
+
+.portfolio__wrapper {
+    background: rgb(32, 255, 225);
+}
+
+
+/* About me */
+
+.about__wrapper {
+    background-color: cadetblue;
 }
 
