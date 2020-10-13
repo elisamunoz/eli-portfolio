@@ -1,0 +1,20 @@
+@import "assets/styles/abstract/index.scss";
+
+.btn {
+  color: $color-main-text;
+  background: $color-main;
+  border: none;
+  padding: .6em 2em;
+  border-radius: $border-radius;
+  outline: none;
+  cursor: pointer;
+  @include transition(background);
+
+  &:hover {
+    background: $color-main-dark;
+  }
+
+  &:active {
+    background: $color-main-darker;
+  }
+};
