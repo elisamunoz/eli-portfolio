@@ -17,10 +17,10 @@
             <div class="menu-close-btn navigation__content__close-btn" onclick="toggleMenu()"></div>
             <div class="navigation__content__profile-img"> </div>
             <div class="navigation__content__link">
-                <a class="navigation__content__link__text" href="#">Home</a>
-                <a class="navigation__content__link__text" href="#">Projects</a>
-                <a class="navigation__content__link__text" href="#">About me</a>
-                <a class="navigation__content__link__text" href="#">Contact me</a>
+                <a class="navigation__content__link__text" href="#home" onclick="toggleMenu()">Home</a>
+                <a class="navigation__content__link__text" href="#portfolio" onclick="toggleMenu()">Portfolio</a>
+                <a class="navigation__content__link__text" href="#about" onclick="toggleMenu()">About me</a>
+                <a class="navigation__content__link__text" href="#contact" onclick="toggleMenu()">Contact me</a>
             </div>
         </div>
     </nav>
@@ -41,7 +41,7 @@
                     Hi there, I'm Elisa!
                 </h1>
                 <h3 class="home__text__subtitle">
-                        I’m a Junior Software Developer looking for my first job in IT. I have just graduated from the Code Institute in Ireland.
+                    I’m a Junior Software Developer looking for my first job in IT. I have just graduated from the Code Institute in Ireland.
                 </h3>
                 <button class="home__text__btn">
                     Download my Resume
@@ -51,9 +51,9 @@
         <!-- /Home -->
 
         <!-- Projects -->
-        <div class="portfolio__wrapper">
+        <div id="portfolio" class="portfolio__wrapper">
             <section class="portfolio">
-                <h1 class="portfolio__title">My Projects</h1>
+                <h1 class="portfolio__title">My Portfolio</h1>
                 <div class="portfolio__card">
                     <div class="portfolio__card__image"></div>
                     <div class="portfolio__card__title">
@@ -67,7 +67,7 @@
         <!--/Projects -->
 
         <!-- About -->
-        <div class="about__wrapper">
+        <div id="about" class="about__wrapper">
             <section class="about">
                 <h1 class="about__title">About me</h1>
                 <div class="about__content">
@@ -84,9 +84,9 @@
         <!-- About me -->
 
         <!-- Contact me -->
-        <div class="contact__wrapper">
+        <div id="contact" class="contact__wrapper">
             <section class="contact">
-                <h1 class="contact__title">About me</h1>
+                <h1 class="contact__title">Contact me</h1>
                 <h4 class="contact__txt">
                         Interested in working together? Don’t hesitate to reach out to me filling out the contact form below, or just calling me.
                 </h4>
@@ -113,17 +113,15 @@
                <div class="contact__form">
                     <form>
                         <label for="fullname">Name:</label><br>
-                        <input type="text" name="name" id="fullname" placeholder="Name" required /><br>
+                        <input type="text" name="name" id="fullname" required /><br>
                         <label for="emailaddress">Email</label><br>
-                        <input type="email" name="email" id="emailaddress" placeholder="Email" required/><br>
+                        <input type="email" name="email" id="emailaddress" required/><br>
                         <label for="message">Message</label><br>
                         <textarea rows="5" maxlength="500" name="message" id="message" placeholder="Message me here..." required></textarea><br>
                         <input type="submit" value="Send Message">
                 </form>
                </div>
-
-
-            </section>
+             </section>
         </div>
         <!-- /Contact me -->
     </div>
