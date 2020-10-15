@@ -34,3 +34,10 @@ $transition-duration: 0.5s;
 $transition-timing: ease;
 $transition-property: all;
 $transition: $transition-duration $transition-timing $transition-property;
+
+/* --------------------- */
+/* --- Media Queries --- */
+/* --------------------- */
+
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;;

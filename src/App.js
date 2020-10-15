@@ -7,7 +7,6 @@ import eliPhoto from 'assets/img/elisa.jpg';
 
 const App = () => (
   <Layout>
-    Content goes here
     <Card
       image={eliPhoto}
       title='Title test bla bla'

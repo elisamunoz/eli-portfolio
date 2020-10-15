@@ -25,13 +25,12 @@ const Card = (props) => {
 
   return (
     <div className={styles.card}>
-      <div>
+      <div className={styles.container}>
         <img className={styles.image} src={image} />
       </div>
       <div className={styles.text}>
-        {title}<br />
-        olakase <br />
-        {desc}
+        <h2>{title}</h2><br />
+        <p>{desc}</p> <br />
       </div>
     </div>)
 }

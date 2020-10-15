@@ -1,3 +1,5 @@
+@import "assets/styles/abstract/index.scss";
+
 :root {
   --nav-size: 300px;
   --border-circle: 50%;
@@ -41,4 +43,10 @@
   display: block;
   text-align: center;
   font-size: 1.5em;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .body {
+    text-align: center;
+  }
 }

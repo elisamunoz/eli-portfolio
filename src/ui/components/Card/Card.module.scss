@@ -1,21 +1,53 @@
 @import "assets/styles/abstract/index.scss";
+h2,
+p {
+  margin: 0
+}
 
 .card {
-  background: grey;
   border-radius: $border-radius;
   border: solid blue 2px;
-  width: 32%;
+  width: 94%;
+  margin: 3% auto;
   overflow: hidden;
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
 }
 
 .image {
-  background: $color-main;
   background-size: cover;
   overflow: hidden;
   width: 100%;
   height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
 }
 
 .text {
   background: red;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .card {
+    width: 46%;
+    margin: 1%;
+    display: inline-block;
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .card {
+    width: 30%;
+  }
 }
