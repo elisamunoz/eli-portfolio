@@ -10,7 +10,7 @@ const App = () => (
     Content goes here
     <Card
       image={eliPhoto}
-      // title='Title test bla bla'
+      title='Title test bla bla'
       desc='lorem ipsum dolor set'
     ></Card>
     <Card

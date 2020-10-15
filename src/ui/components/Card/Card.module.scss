@@ -1,16 +1,19 @@
+@import "assets/styles/abstract/index.scss";
+
 .card {
   background: grey;
-  border-radius: 5px;
+  border-radius: $border-radius;
   border: solid blue 2px;
-  height: 400px;
-  width: 250px;
+  width: 32%;
+  overflow: hidden;
 }
 
 .image {
-  background: yellow;
+  background: $color-main;
   background-size: cover;
-  height: 250px;
+  overflow: hidden;
   width: 100%;
+  height: auto;
 }
 
 .text {
