@@ -1,7 +1,9 @@
 import React, { useState }  from 'react';
 import Sidebar from './Sidebar';
 import Button from 'ui/components/Button';
+import Icon from 'ui/components/Icon';
 import 'assets/styles/index.scss';
+import menuIcon from 'assets/img/menu.png';
 
 const App = ({ children }) => {
   const [openMenu, setOpenMenu] = useState(0);
@@ -12,7 +14,7 @@ const App = ({ children }) => {
 
   return (
     <div>
-      <Button onClick={toggleMenu}>Open</Button>
+      <Icon onClick={toggleMenu} img={menuIcon} className='menu-icon' />
       <Sidebar onClose={toggleMenu} isOpen={openMenu} />
       <div className='body'>
         {children}

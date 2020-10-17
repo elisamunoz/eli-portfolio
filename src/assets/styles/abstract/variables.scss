@@ -30,10 +30,20 @@ $border-width: 1px;
 $border-color: $color-main;
 $border: $border-style $border-width $border-color;
 
+$icon-toggle-position: 15px;
+
 $transition-duration: 0.5s;
 $transition-timing: ease;
 $transition-property: all;
 $transition: $transition-duration $transition-timing $transition-property;
+
+/* --------------- */
+/* --- Sidebar --- */
+/* --------------- */
+$avatar-margin: 60px;
+$sidebar-line-heigth: 40px;
+
+
 
 /* --------------------- */
 /* --- Media Queries --- */
