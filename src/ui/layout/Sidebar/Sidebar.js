@@ -1,6 +1,5 @@
 import React from 'react';
 import classnames from 'classnames';
-import Button from 'ui/components/Button';
 import Avatar from 'ui/components/Avatar/Avatar';
 import Icon from 'ui/components/Icon';
 import eliPhoto from 'assets/img/elisa.jpg';
