@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import styles from './Card.module.scss';
 
 // function Card(props) {
