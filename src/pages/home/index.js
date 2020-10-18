@@ -1,10 +1,3 @@
-import React from 'react';
-import './Home.scss';
-
-const Home = () => (
-  <div>
-    Home page
-  </div>
-);
+import Home from './Home';
 
 export default Home;

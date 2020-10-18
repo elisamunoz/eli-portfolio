@@ -2,6 +2,7 @@
 
 html {
   background: $white;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,6 +23,12 @@ code {
 h2,
 p {
   margin: 0
+}
+
+.vertical-center {
+  display: flex;
+  flex-grow: 1;
+  align-self: center;
 }
 
 .menu-icon {
