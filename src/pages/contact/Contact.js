@@ -1,18 +1,19 @@
 import React from 'react';
 import classnames from 'classnames';
+import Section from 'ui/components/Section';
 import Button from 'ui/components/Button';
-import './About.scss';
+import  styles from './Contact.module.scss';
 
-<section id='about' className='about vertical-center'>
-  <div class='container'>
-    <h1 class='title'>
-      Contact Me
-    </h1>
-    <h3 className='subtitle'>
-      
-    </h3>
-    <Button className='btn'>
-      Download my Resume
-    </Button>
-  </div>
-</section>
+
+const Contact = () => (
+  <Section
+    id='contact'
+    className={styles.contact}
+    title='Contact Me'
+    subtitle='Interested in working together? Don’t hesitate to reach out to me filling out the contact form below, or just calling me.'
+  >
+
+  </Section>
+);
+
+export default Contact;

@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'ui/components/Button'
 import styles from './Card.module.scss';
 
 // function Card(props) {
@@ -21,16 +22,19 @@ import styles from './Card.module.scss';
 // const myFunction = (option) => option * 2;
 
 const Card = (props) => {
-  const { title, desc, image } = props;
+  const { title, desc, image, children } = props;
 
   return (
     <div className={styles.card}>
-      <div className={styles.container}>
+      <div className={styles.imgContainer}>
         <img className={styles.image} src={image} />
       </div>
       <div className={styles.text}>
         <h2>{title}</h2><br />
         <p>{desc}</p> <br />
+        <Button
+        children='More'
+        />
       </div>
     </div>)
 }
