@@ -1,6 +1,4 @@
 import React from 'react';
-import classnames from 'classnames';
-import Button from 'ui/components/Button';
 import Card from 'ui/components/Card';
 import Section from 'ui/components/Section';
 import styles from './Portfolio.module.scss';
