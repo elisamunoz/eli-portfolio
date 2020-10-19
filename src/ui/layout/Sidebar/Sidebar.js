@@ -1,8 +1,9 @@
 import React from 'react';
 import classnames from 'classnames';
-import Button from 'ui/components/Button';
 import Avatar from 'ui/components/Avatar/Avatar';
+import Icon from 'ui/components/Icon';
 import eliPhoto from 'assets/img/elisa.jpg';
+import closeIcon from 'assets/img/close.png';
 import './Sidebar.scss';
 
 const Link = ({ label, href }) => (
@@ -22,10 +23,9 @@ const Sidebar = ({ onClose, isOpen }) => (
     )}
   >
     <div className="navigation__content">
-      <Button onClick={onClose}>Close</Button>
-      <div className="menu-close-btn navigation__content__close-btn" onClick={onClose} />
+      <Icon onClick={onClose} img={closeIcon} className='close-icon' />
 
-      <Avatar img={eliPhoto} className="avatar" />
+      <Avatar img={eliPhoto} className='avatar-sidebar' />
 
       <div className="navigation__content__link">
         <Link href='#' label='Home' />

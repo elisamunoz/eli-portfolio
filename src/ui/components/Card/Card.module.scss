@@ -1,18 +1,49 @@
+@import "assets/styles/abstract/index.scss";
+
 .card {
-  background: grey;
-  border-radius: 5px;
+  border-radius: $border-radius;
   border: solid blue 2px;
-  height: 400px;
-  width: 250px;
+  width: 94%;
+  margin: 3% auto;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
 }
 
 .image {
-  background: yellow;
   background-size: cover;
-  height: 250px;
+  overflow: hidden;
   width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
 }
 
 .text {
   background: red;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .card {
+    width: 46%;
+    margin: 1%;
+    display: inline-block;
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .card {
+    width: 30%;
+  }
 }

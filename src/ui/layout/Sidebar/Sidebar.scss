@@ -1,3 +1,5 @@
+@import "assets/styles/abstract/index.scss";
+
 :root {
   --nav-size: 300px;
   --border-circle: 50%;
@@ -6,7 +8,7 @@
 }
 
 .navigation__content {
-  position: relative;
+  display: flow-root;
 }
 
 .navigation {
@@ -24,21 +26,19 @@
   margin-left: 0;
 }
 
-
-.navigation__content__close-btn {
+.close-icon {
   position: absolute;
-  background-image: url("/static/images/cross.png");
-  right: 10px;
-  top: -35px;
+  right: $icon-toggle-position;
+  top: $icon-toggle-position;
 }
 
-.avatar {
-  margin: 45px auto;
+.avatar-sidebar {
+  margin: $avatar-margin auto;
 }
 
 .link {
   color: var(--main-color);
   display: block;
-  text-align: center;
   font-size: 1.5em;
+  line-height: 40px;
 }

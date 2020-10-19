@@ -1,29 +1,33 @@
 import React from 'react';
-import Layout from 'ui/layout/index';
-import Card from 'ui/components/Card';
-import 'assets/styles/index.scss';
-import eliPhoto from 'assets/img/elisa.jpg';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
+import Layout from 'ui/layout/index';
+import Home from 'pages/main';
+import PageHuemul from 'pages/projects/huemul';
+import 'assets/styles/index.scss';
 
 const App = () => (
-  <Layout>
-    Content goes here
-    <Card
-      image={eliPhoto}
-      // title='Title test bla bla'
-      desc='lorem ipsum dolor set'
-    ></Card>
-    <Card
-      image={eliPhoto}
-      title='Title test bla bla'
-      desc='lorem ipsum dolor set'
-    ></Card>
-    <Card
-      image={eliPhoto}
-      title='second card'
-      desc='lorem ipsum dolor set'
-    ></Card>
-  </Layout>
+  <Router>
+    <Layout>
+
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/projects/huemul">
+          <PageHuemul />
+        </Route>
+        <Route path="*">
+          <Home />
+        </Route>
+      </Switch>
+
+    </Layout>
+  </Router>
 );
 
 export default App;

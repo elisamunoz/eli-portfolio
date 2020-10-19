@@ -1,0 +1,21 @@
+@import 'assets/styles/abstract/index.scss';
+
+.contactContent{
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $breakpoint-desktop) {
+    flex-direction: row;
+  }
+}
+
+.info {
+  margin: auto;
+  width: 50%;
+  background: red;
+}
+
+.form {
+  width: 50%;
+  margin: auto;
+}

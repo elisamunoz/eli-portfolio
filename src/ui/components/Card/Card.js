@@ -1,21 +1,42 @@
-import React from "react";
+import React from 'react';
+import Button from 'ui/components/Button'
 import styles from './Card.module.scss';
 
-function Card(props) {
-  // const title = props.title;  
-  // const desc = props.desc;
+// function Card(props) {
+//   // const title = props.title;  
+//   // const desc = props.desc;
 
+//   const { title, desc, image } = props;
+
+//   return (
+//     <div className={styles.card}>
+//       <div className={styles.image} style={{ backgroundImage:`url(${image})` }}/>
+//       <div className={styles.text}>
+//         {title}<br />
+//         olakase <br />
+//         {desc}
+//       </div>
+//     </div>)
+// };
+
+// const myFunction = (option) => option * 2;
+
+const Card = (props) => {
   const { title, desc, image } = props;
 
   return (
     <div className={styles.card}>
-      <div className={styles.image} style={{ backgroundImage:`url(${image})` }}/>
+      <div className={styles.imgContainer}>
+        <img className={styles.image} src={image} alt='' />
+      </div>
       <div className={styles.text}>
-        {title}<br />
-        olakase <br />
-        {desc}
+        <h2>{title}</h2><br />
+        <p>{desc}</p> <br />
+        <Button>
+          More
+        </Button>
       </div>
     </div>)
-};
+}
 
 export default Card;
