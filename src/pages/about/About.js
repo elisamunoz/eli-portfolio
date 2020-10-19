@@ -1,5 +1,4 @@
 import React from 'react';
-import classnames from 'classnames';
 import Section from 'ui/components/Section';
 import styles from'./About.module.scss';
 

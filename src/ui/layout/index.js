@@ -1,6 +1,5 @@
 import React, { useState }  from 'react';
 import Sidebar from './Sidebar';
-import Button from 'ui/components/Button';
 import Icon from 'ui/components/Icon';
 import 'assets/styles/index.scss';
 import menuIcon from 'assets/img/menu.png';
