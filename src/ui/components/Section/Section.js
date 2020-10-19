@@ -10,8 +10,8 @@ const Section = ({
   className,
 }) => (
   <section id={id} className={classnames(styles.section, className)}>
-    <div className={classnames(styles.container)}>
-      <h1 className={classnames(styles.title)}>
+    <div className={styles.container}>
+      <h1 className={styles.title}>
         {title}
       </h1>
       <h3 className={styles.subtitle}>
@@ -19,8 +19,7 @@ const Section = ({
       </h3>
       <div className={styles.content}>
         {children}
-      </div>
-      
+      </div>     
     </div>
   </section>
 );
