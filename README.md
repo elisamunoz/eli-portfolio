@@ -1,3 +1,6 @@
+![CI/CD](https://github.com/elisamunoz/eli-portfolio/workflows/CI/CD/badge.svg)
+![License](https://img.shields.io/github/license/elisamunoz/eli-portfolio)
+
 # eli-portfolio
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
