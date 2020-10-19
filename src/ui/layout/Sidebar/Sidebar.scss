@@ -1,0 +1,44 @@
+@import "assets/styles/abstract/index.scss";
+
+:root {
+  --nav-size: 300px;
+  --border-circle: 50%;
+
+  --main-color: #000000;
+}
+
+.navigation__content {
+  display: flow-root;
+}
+
+.navigation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: var(--nav-size);
+  background: red;
+  margin-left: calc(-1 * var(--nav-size));
+  z-index: 10;
+  transition: margin-left 0.5s ease;
+}
+.navigation.isOpen{
+  margin-left: 0;
+}
+
+.close-icon {
+  position: absolute;
+  right: $icon-toggle-position;
+  top: $icon-toggle-position;
+}
+
+.avatar-sidebar {
+  margin: $avatar-margin auto;
+}
+
+.link {
+  color: var(--main-color);
+  display: block;
+  font-size: 1.5em;
+  line-height: 40px;
+}

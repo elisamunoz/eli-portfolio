@@ -1,0 +1,22 @@
+@import 'assets/styles/abstract/index.scss';
+
+.aboutContent{
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $breakpoint-desktop) {
+    flex-direction: row;
+  }
+}
+
+.img {
+  width: 50%;
+  height: 400px;
+  background: red;
+}
+
+.txt {
+  width: 50%;
+  margin: auto;
+  display: inline-block;
+}
