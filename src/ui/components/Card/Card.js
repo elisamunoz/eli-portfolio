@@ -22,19 +22,19 @@ import styles from './Card.module.scss';
 // const myFunction = (option) => option * 2;
 
 const Card = (props) => {
-  const { title, desc, image, children } = props;
+  const { title, desc, image } = props;
 
   return (
     <div className={styles.card}>
       <div className={styles.imgContainer}>
-        <img className={styles.image} src={image} />
+        <img className={styles.image} src={image} alt='' />
       </div>
       <div className={styles.text}>
         <h2>{title}</h2><br />
         <p>{desc}</p> <br />
-        <Button
-        children='More'
-        />
+        <Button>
+          More
+        </Button>
       </div>
     </div>)
 }
