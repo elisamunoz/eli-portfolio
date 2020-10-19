@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import Layout from 'ui/layout/index';
-import Home from 'pages/main';
+import PageHome from 'pages/home';
 import PageHuemul from 'pages/projects/huemul';
 import 'assets/styles/index.scss';
 
@@ -16,13 +16,13 @@ const App = () => (
 
       <Switch>
         <Route exact path="/">
-          <Home />
+          <PageHome />
         </Route>
         <Route path="/projects/huemul">
           <PageHuemul />
         </Route>
         <Route path="*">
-          <Home />
+          <PageHome />
         </Route>
       </Switch>
 
