@@ -10,6 +10,7 @@ import PageHome from 'pages/home';
 import PageHuemul from 'pages/projects/huemul';
 import PageBirdsongs from 'pages/projects/birdsongs';
 import PageStitchpirations from 'pages/projects/stitchpirations';
+import PageCatcus from 'pages/projects/catcus';
 import 'assets/styles/index.scss';
 
 const App = () => (
@@ -28,6 +29,9 @@ const App = () => (
         </Route>
         <Route path="/projects/stitchpirations">
           <PageStitchpirations />
+        </Route>
+        <Route path="/projects/catcus">
+          <PageCatcus />
         </Route>
       </Switch>
 
