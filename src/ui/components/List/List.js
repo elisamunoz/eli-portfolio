@@ -9,10 +9,7 @@ const List = ({
   title,
 }) => (
   <div className={classnames(styles.list, className)}>
-    {title
-      ? <p>{title}</p>
-      : null
-    }
+    {title && <p>{title}</p>}
     <ul>
       {children}
     </ul>
