@@ -8,6 +8,8 @@ import {
 import Layout from 'ui/layout/index';
 import PageHome from 'pages/home';
 import PageHuemul from 'pages/projects/huemul';
+import PageBirdsongs from 'pages/projects/birdsongs';
+import PageStitchpirations from 'pages/projects/stitchpirations';
 import 'assets/styles/index.scss';
 
 const App = () => (
@@ -21,8 +23,11 @@ const App = () => (
         <Route path="/projects/huemul">
           <PageHuemul />
         </Route>
-        <Route path="*">
-          <PageHome />
+        <Route path="/projects/birdsongs">
+          <PageBirdsongs />
+        </Route>
+        <Route path="/projects/stitchpirations">
+          <PageStitchpirations />
         </Route>
       </Switch>
 
