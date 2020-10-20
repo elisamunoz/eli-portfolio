@@ -9,9 +9,11 @@ const Page = () => (
   <Section
     title='Catcus'
   >
-    <Article
-      paragraph='Catcus Shop is an eCommerce website dedicated to sell plants. This project is to support beginner, or advanced gardeners or what we know as “plant parents”, in a greeny-colorful journey. Gardening has proven to be beneficial for one’s mood. In fact, gardening has even be prescribed in some situations where patients experience such things as anxiety and depression.'>
-
+    <Article>
+      <p>
+        Catcus Shop is an eCommerce website dedicated to sell plants. This project is to support beginner, or advanced gardeners or what we know as “plant parents”, in a greeny-colorful journey. Gardening has proven to be beneficial for one’s mood. In fact, gardening has even be prescribed in some situations where patients experience such things as anxiety and depression.'
+      </p>
+      
       <List title='What technologies I used?'>
         <List.Item>HTML</List.Item>
         <List.Item>CSS</List.Item>

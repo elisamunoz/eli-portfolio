@@ -9,9 +9,11 @@ const Page = () => (
   <Section
     title='Stitchpirations'
   >
-    <Article
-      paragraph='This website is a dedicated to people that enjoy crocheting,knitting and sewing as hobby or way of life.  The purpose of the app is to aggregate different patterns and articles related to the theme. The user is able to create, read, update and delete (CRUD) entries.'
-    >
+    <Article>
+      <p>
+        This website is a dedicated to people that enjoy crocheting,knitting and sewing as hobby or way of life. The purpose of the app is to aggregate different patterns and articles related to the theme. The user is able to create, read, update and delete (CRUD) entries.
+      </p>
+
       <List title='What technologies I used?'>
         <List.Item>HTML</List.Item>
         <List.Item>CSS</List.Item>
