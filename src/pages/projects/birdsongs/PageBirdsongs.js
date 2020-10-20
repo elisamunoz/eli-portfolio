@@ -3,7 +3,7 @@ import Section from 'ui/components/Section';
 import Article from 'ui/components/Article';
 import Link from 'ui/components/Link';
 import { List, ListItem } from 'ui/components/List';
-import styles from './PageBirdsongs.module.scss';
+// import styles from './PageBirdsongs.module.scss';
 
 const Page = () => (
   <Section

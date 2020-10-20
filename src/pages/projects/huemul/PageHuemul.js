@@ -3,7 +3,7 @@ import Section from 'ui/components/Section';
 import Article from 'ui/components/Article';
 import Link from 'ui/components/Link';
 import { List, ListItem } from 'ui/components/List';
-import styles from './PageHuemul.module.scss';
+// import styles from './PageHuemul.module.scss';
 
 const Page = () => (
   <Section
@@ -22,7 +22,7 @@ const Page = () => (
         <ListItem>Font Awesome 4.7.0</ListItem>
         <ListItem>Google Fonts</ListItem>
       </List>
-      
+      {/*  */}
       <p>This website is hosted and deployed using GitHub pages.</p>
       <p>Link to the GitHub repository <Link href='https://github.com/elisamunoz/the-huemul-organization'>here</Link></p>
       <p>Link to the live demo <Link href='https://elisamunoz.github.io/the-huemul-organization/'>here</Link></p>
