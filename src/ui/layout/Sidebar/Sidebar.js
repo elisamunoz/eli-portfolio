@@ -29,7 +29,7 @@ const Sidebar = ({ onClose, isOpen }) => (
 
       <div className="navigation__content__link">
         <Link href='#' label='Home' />
-        <Link href='#' label='Projects' />
+        <Link href='#' label='Portfolio' />
         <Link href='#' label='About me' />
         <Link href='#' label='Contact me' />
       </div>

@@ -6,8 +6,11 @@ import {
 } from "react-router-dom";
 
 import Layout from 'ui/layout/index';
-import Home from 'pages/main';
+import PageHome from 'pages/home';
 import PageHuemul from 'pages/projects/huemul';
+import PageBirdsongs from 'pages/projects/birdsongs';
+import PageStitchpirations from 'pages/projects/stitchpirations';
+import PageCatcus from 'pages/projects/catcus';
 import 'assets/styles/index.scss';
 
 const App = () => (
@@ -16,13 +19,19 @@ const App = () => (
 
       <Switch>
         <Route exact path="/">
-          <Home />
+          <PageHome />
         </Route>
         <Route path="/projects/huemul">
           <PageHuemul />
         </Route>
-        <Route path="*">
-          <Home />
+        <Route path="/projects/birdsongs">
+          <PageBirdsongs />
+        </Route>
+        <Route path="/projects/stitchpirations">
+          <PageStitchpirations />
+        </Route>
+        <Route path="/projects/catcus">
+          <PageCatcus />
         </Route>
       </Switch>
 
