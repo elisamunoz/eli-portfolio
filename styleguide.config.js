@@ -1,4 +1,5 @@
 module.exports = {
+  styleguideDir: 'build/styleguide',
   skipComponentsWithoutExample: true,
   sections: [
     {

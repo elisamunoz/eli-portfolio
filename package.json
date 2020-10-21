@@ -8,7 +8,7 @@
     "build": "react-scripts build",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && npm run styleguide:build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
