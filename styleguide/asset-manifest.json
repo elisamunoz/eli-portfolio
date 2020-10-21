@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/eli-portfolio/static/css/main.e85d961d.chunk.css",
+    "main.js": "/eli-portfolio/build/main.ae555599.js",
+    "runtime-main.js": "/eli-portfolio/build/bundle.a0a319cd.js",
+    "build/2.535c25f4.js": "/eli-portfolio/build/2.535c25f4.js",
+    "build/2.535c25f4.js.LICENSE.txt": "/eli-portfolio/build/2.535c25f4.js.LICENSE.txt",
+    "index.html": "/eli-portfolio/index.html",
+    "precache-manifest.a126760b675d07b968135697adc03942.js": "/eli-portfolio/precache-manifest.a126760b675d07b968135697adc03942.js",
+    "service-worker.js": "/eli-portfolio/service-worker.js",
+    "static/css/main.e85d961d.chunk.css.map": "/eli-portfolio/static/css/main.e85d961d.chunk.css.map"
+  },
+  "entrypoints": [
+    "build/bundle.a0a319cd.js",
+    "build/2.535c25f4.js",
+    "static/css/main.e85d961d.chunk.css",
+    "build/main.ae555599.js"
+  ]
+}
