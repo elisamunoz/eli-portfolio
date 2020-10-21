@@ -11,7 +11,6 @@ const Card = (props) => {
     <div className={styles.card}>
       <div className={styles.imgContainer}>
         <Img className={styles.image} src={image} />
-        {/* <img className={styles.image} src={image} alt='' /> */}
       </div>
       <div className={styles.text}>
         <h2>{title}</h2><br />
