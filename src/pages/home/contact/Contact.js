@@ -20,7 +20,7 @@ const Contact = () => (
             Ireland<br />
             elisamunozes@gmail.com
         </p>
-        <div className={styles.socialMedia}>>
+        <div className={styles.socialMedia}>
             <div className={styles.link}>
                 Linkedin
             </div>
