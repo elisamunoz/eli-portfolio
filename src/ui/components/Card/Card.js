@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from 'ui/components/Button'
+import Button from 'ui/components/Button';
+import Img from 'ui/components/Img';
 import styles from './Card.module.scss';
 
 const Card = (props) => {
@@ -9,7 +10,8 @@ const Card = (props) => {
   return (
     <div className={styles.card}>
       <div className={styles.imgContainer}>
-        <img className={styles.image} src={image} alt='' />
+        <Img className={styles.image} src={image} />
+        {/* <img className={styles.image} src={image} alt='' /> */}
       </div>
       <div className={styles.text}>
         <h2>{title}</h2><br />
