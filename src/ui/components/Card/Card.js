@@ -30,8 +30,8 @@ const Card = (props) => {
         <img className={styles.image} src={image} alt='' />
       </div>
       <div className={styles.text}>
-        <h2>{title}</h2><br />
-        <p>{desc}</p> <br />
+        <h2>{title}</h2>
+        <p>{desc}</p>
         <Button>
           More
         </Button>
