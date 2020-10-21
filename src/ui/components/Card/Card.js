@@ -21,22 +21,27 @@ import styles from './Card.module.scss';
 
 // const myFunction = (option) => option * 2;
 
-const Card = (props) => {
-  const { title, desc, image } = props;
-
-  return (
-    <div className={styles.card}>
-      <div className={styles.imgContainer}>
-        <img className={styles.image} src={image} alt='' />
+const Card = ({
+  title,
+  desc,
+  image
+}) => (
+  <div className={styles.card}>
+    <div className={styles.imgContainer}>
+      <img className={styles.image} src={image} alt='' />
+    </div>
+    <div className={styles.txtContainer}>
+      <div className={styles.txt}>
+        <div className={styles.txtContent}>
+          <h2>{title}</h2>
+          <p>{desc}</p>
+          <Button>
+            More
+          </Button>
+        </div>
       </div>
-      <div className={styles.text}>
-        <h2>{title}</h2>
-        <p>{desc}</p>
-        <Button>
-          More
-        </Button>
-      </div>
-    </div>)
-}
+    </div>
+  </div>
+);
 
 export default Card;
