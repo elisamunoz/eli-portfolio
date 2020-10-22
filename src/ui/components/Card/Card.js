@@ -1,25 +1,8 @@
 import React from 'react';
-import Button from 'ui/components/Button'
+import PropTypes from 'prop-types';
+import Button from 'ui/components/Button';
+import Img from 'ui/components/Img';
 import styles from './Card.module.scss';
-
-// function Card(props) {
-//   // const title = props.title;  
-//   // const desc = props.desc;
-
-//   const { title, desc, image } = props;
-
-//   return (
-//     <div className={styles.card}>
-//       <div className={styles.image} style={{ backgroundImage:`url(${image})` }}/>
-//       <div className={styles.text}>
-//         {title}<br />
-//         olakase <br />
-//         {desc}
-//       </div>
-//     </div>)
-// };
-
-// const myFunction = (option) => option * 2;
 
 const Card = ({
   title,
@@ -28,7 +11,7 @@ const Card = ({
 }) => (
   <div className={styles.card}>
     <div className={styles.imgContainer}>
-      <img className={styles.image} src={image} alt='' />
+      <Img className={styles.image} src={image} />
     </div>
     <div className={styles.txtContainer}>
       <div className={styles.txt}>
@@ -43,5 +26,11 @@ const Card = ({
     </div>
   </div>
 );
+
+Card.propTypes = {
+  title: PropTypes.string,
+  desc: PropTypes.string,
+  img: PropTypes.any,
+};
 
 export default Card;
