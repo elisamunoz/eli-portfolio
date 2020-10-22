@@ -1,42 +1,36 @@
 import React from 'react';
-import Button from 'ui/components/Button'
+import PropTypes from 'prop-types';
+import Button from 'ui/components/Button';
+import Img from 'ui/components/Img';
 import styles from './Card.module.scss';
 
-// function Card(props) {
-//   // const title = props.title;  
-//   // const desc = props.desc;
-
-//   const { title, desc, image } = props;
-
-//   return (
-//     <div className={styles.card}>
-//       <div className={styles.image} style={{ backgroundImage:`url(${image})` }}/>
-//       <div className={styles.text}>
-//         {title}<br />
-//         olakase <br />
-//         {desc}
-//       </div>
-//     </div>)
-// };
-
-// const myFunction = (option) => option * 2;
-
-const Card = (props) => {
-  const { title, desc, image } = props;
-
-  return (
-    <div className={styles.card}>
-      <div className={styles.imgContainer}>
-        <img className={styles.image} src={image} alt='' />
+const Card = ({
+  title,
+  desc,
+  image
+}) => (
+  <div className={styles.card}>
+    <div className={styles.imgContainer}>
+      <Img className={styles.image} src={image} />
+    </div>
+    <div className={styles.txtContainer}>
+      <div className={styles.txt}>
+        <div className={styles.txtContent}>
+          <h2>{title}</h2>
+          <p>{desc}</p>
+          <Button>
+            More
+          </Button>
+        </div>
       </div>
-      <div className={styles.text}>
-        <h2>{title}</h2><br />
-        <p>{desc}</p> <br />
-        <Button>
-          More
-        </Button>
-      </div>
-    </div>)
-}
+    </div>
+  </div>
+);
+
+Card.propTypes = {
+  title: PropTypes.string,
+  desc: PropTypes.string,
+  img: PropTypes.any,
+};
 
 export default Card;

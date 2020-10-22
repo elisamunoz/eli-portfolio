@@ -27,11 +27,27 @@
 
 }
 
-.text {
+.txtContainer {
   background: red;
   text-align: center;
   width: 100%;
-  height: 150px;
+  min-height: 150px;
+  margin: auto;
+}
+
+.txt {
+  display: flex;
+  flex-grow: 1;
+  align-self: center;
+}
+
+.txtContent {
+  padding: 20px;
+  margin: auto;
+}
+
+.txtContent p {
+  margin: 8px 0;
 }
 
 @media (min-width: $breakpoint-tablet) {

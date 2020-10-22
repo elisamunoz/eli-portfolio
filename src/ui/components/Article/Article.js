@@ -4,7 +4,7 @@ import styles from './Article.module.scss';
 
 const Article = ({
   children,
-  className
+  className,
 }) => (
   <div className={classnames(styles.article, className)}>
     <div className={styles.img} />
