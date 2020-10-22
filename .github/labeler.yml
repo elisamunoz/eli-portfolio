@@ -16,7 +16,7 @@ frontend:
   all: ['!src/main.js']
 
 styles 🦋:
-- any: ['src/**/*.scss', 'src/**/*.css', 'src/**/*.less']
+- any: ['./**/*.scss', './**/*.css', './**/*.less']
 
 components 📚:
 - any: ['src/ui/components/**/*']
