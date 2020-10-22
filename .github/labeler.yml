@@ -15,11 +15,11 @@ frontend:
 - any: ['src/**/*.js']
   all: ['!src/main.js']
 
-styles:
+styles 🦋:
 - any: ['src/**/*.scss', 'src/**/*.css', 'src/**/*.less']
 
 components:
 - any: ['src/ui/components/**/*']
 
-documentation:
+documentation 📚:
 - any: ['./**/*.md']
