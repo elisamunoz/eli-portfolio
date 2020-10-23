@@ -32,11 +32,12 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build
+    - name: Build 🔧
       run: npm run build --if-present
 
-    - name: Deploy
+    - name: Deploy 🚀
       # if: github.event == 'push'
+      needs: Build 🔧
       if: {{ github.event == 'push' && github.ref == 'master' }}
       run: |
         git config --global user.name $user_name
@@ -48,8 +49,3 @@ jobs:
         user_email: 'github-actions[bot]@users.noreply.github.com'
         github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
         repository: ${{ github.repository }}
-
-    - name: The job has succeeded ✨
-      if: ${{ success() }}
-    - name: The job has failed 💥
-      if: failure()
