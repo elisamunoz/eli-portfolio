@@ -23,6 +23,7 @@ jobs:
         # os: [ubuntu-latest, windows-latest, macOs-latest]
 
     steps:
+    - run: echo ${{github.ref}}
     - name: Checkout repository
       uses: actions/checkout@v2
 
