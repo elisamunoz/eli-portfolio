@@ -39,6 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Deploy 🚀
+      needs: [build]
       if: github.event == 'push'
       # if: {{ github.event == 'push' && github.ref == 'master' }}
       run: |
