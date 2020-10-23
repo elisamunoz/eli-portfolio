@@ -3,7 +3,6 @@ import classnames from 'classnames';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { linkTo } from 'const';
 import Avatar from 'ui/components/Avatar/Avatar';
-import Link from 'ui/components/Link/Link';
 import Icon from 'ui/components/Icon';
 import eliPhoto from 'assets/img/elisa.jpg';
 import closeIcon from 'assets/img/close.png';

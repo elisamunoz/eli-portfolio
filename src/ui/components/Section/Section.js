@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
 import styles from './Section.module.scss';
-import homeImg from 'assets/img/home.jpg'
+// import homeImg from 'assets/img/home.jpg'
 
 const Section = ({
   id,
