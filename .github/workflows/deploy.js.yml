@@ -49,7 +49,7 @@ jobs:
         github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
         repository: ${{ github.repository }}
 
-    - name: The job has succeeded ✨
+    - name: The job has succeeded
         if: ${{ success() }}
-    - name: The job has failed 💥
+    - name: The job has failed
         if: ${{ failure() }}
