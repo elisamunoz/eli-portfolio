@@ -50,6 +50,6 @@ jobs:
         repository: ${{ github.repository }}
 
     - name: The job has succeeded
-        if: ${{ success() }}
+        if: success()
     - name: The job has failed
-        if: ${{ failure() }}
+        if: failure()
