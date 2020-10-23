@@ -40,7 +40,13 @@ jobs:
 
   release:
     needs: [build]
-    if: github.event == 'push' && github.ref == 'main'
+    # if: github.event == 'push' && github.ref == 'main'
+    if:
+      github.event == 'push'
+      contains(
+        'refs/heads/master'
+        'refs/heads/main'
+      , github.ref)
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
