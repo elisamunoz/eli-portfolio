@@ -18,8 +18,11 @@ frontend:
 styles 🦋:
 - any: ['./**/*.css', './**/*.scss', './**/*.less', './**/*.sass']
 
+st 🦋:
+- any: ['./**/*.module.css', './**/*.module.scss', './**/*.module.less', './**/*.module.sass']
+
 style 🦋:
-- all: ['./**/*.css', './**/*.scss', './**/*.less', './**/*.sass']
+- all: ['./**/*.css', './**/**.scss', './**/**.less', './**/**.sass']
 
 components 📦:
 - any: ['src/ui/components/**/*']
