@@ -2,4 +2,6 @@
 
 .home {
     height: 100vh;
+    
+    @include bg-cover;
 }

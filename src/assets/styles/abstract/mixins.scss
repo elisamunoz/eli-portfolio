@@ -5,3 +5,13 @@
 ) {
   transition: $property $duration $timing;
 }
+
+@mixin bg-cover {
+  // min-height: calc(100% - 40px);
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  // background-attachment: fixed;
+}

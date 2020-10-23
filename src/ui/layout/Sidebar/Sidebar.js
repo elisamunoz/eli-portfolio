@@ -7,14 +7,6 @@ import eliPhoto from 'assets/img/elisa.jpg';
 import closeIcon from 'assets/img/close.png';
 import './Sidebar.scss';
 
-// const Link = ({ label, href }) => (
-//   <a
-//     className="link"
-//     href={href}>
-//     {label}
-//   </a>
-// );
-
 const Sidebar = ({ onClose, isOpen }) => (
   <nav
     id='navigation'

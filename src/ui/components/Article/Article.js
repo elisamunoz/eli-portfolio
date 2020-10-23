@@ -6,7 +6,9 @@ const Article = ({
   children,
   className,
 }) => (
-  <div className={classnames(styles.article, className)}>
+  <div 
+    className={classnames(styles.article, className)}
+  >
     <div className={styles.img} />
     <div className={styles.txt}>
       {children}
