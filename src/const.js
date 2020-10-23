@@ -12,6 +12,14 @@ export const PATHS = {
   PROJECTS_CATCUS: `${BASE_PATH}projects/catcus`,
 }
 
+export const HOME_SECTIONS = {
+  HOME: 'home',
+  CONTACT: 'contact',
+  ABOUT: 'about',
+  PORTFOLIO: 'portfolio',
+  PROJECTS: 'projects',
+}
+
 export var linkTo = {
   home: () => PATHS.HOME,
   projectsHuemul: () => PATHS.PROJECTS_HUEMUL,

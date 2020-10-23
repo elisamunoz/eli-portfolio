@@ -1,4 +1,5 @@
 import React from 'react';
+import { HOME_SECTIONS } from 'const';
 import { useLink } from 'hooks/useLink';
 import Card from 'ui/components/Card';
 import Section from 'ui/components/Section';
@@ -14,7 +15,7 @@ const Portfolio = () => {
 
   return (
     <Section
-      id='portfolio'
+      id={HOME_SECTIONS.PORTFOLIO}
       className={styles.portfolio}
       title='Portfolio'
       subtitle='This is my portfolio'

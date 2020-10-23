@@ -1,10 +1,11 @@
 import React from 'react';
+import { HOME_SECTIONS } from 'const';
 import Section from 'ui/components/Section';
 import styles from'./About.module.scss';
 
 const About = () => (
   <Section
-    id='about'
+    id={HOME_SECTIONS.ABOUT}
     className={styles.about}
     title='About Me'
     subtitle="I'm Elisa"
