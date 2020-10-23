@@ -7,5 +7,6 @@ import img from 'assets/img/demo/demo.jpg';
   title="My title"
   desc="bla bla bla"
   image={img}
+  onClickMore={() => alert('Button clicked!!')}
 />
 ```

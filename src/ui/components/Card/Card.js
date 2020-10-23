@@ -7,7 +7,8 @@ import styles from './Card.module.scss';
 const Card = ({
   title,
   desc,
-  image
+  image,
+  onClickMore,
 }) => (
   <div className={styles.card}>
     <div className={styles.imgContainer}>
@@ -18,7 +19,7 @@ const Card = ({
         <div className={styles.txtContent}>
           <h2>{title}</h2>
           <p>{desc}</p>
-          <Button>
+          <Button onClick={onClickMore}>
             More
           </Button>
         </div>
@@ -31,6 +32,7 @@ Card.propTypes = {
   title: PropTypes.string,
   desc: PropTypes.string,
   img: PropTypes.any,
+  onClickMore: PropTypes.func,
 };
 
 export default Card;

@@ -1,11 +1,23 @@
 import React from 'react';
 import classnames from 'classnames';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+import { linkTo } from 'const';
 import Avatar from 'ui/components/Avatar/Avatar';
 import Link from 'ui/components/Link/Link';
 import Icon from 'ui/components/Icon';
 import eliPhoto from 'assets/img/elisa.jpg';
 import closeIcon from 'assets/img/close.png';
 import './Sidebar.scss';
+
+const Link = ({ label, href }) => (
+  <NavLink
+    to={href}
+    className='link'
+    activeClassName="selected"
+  >
+    {label}
+  </NavLink>
+);
 
 const Sidebar = ({ onClose, isOpen }) => (
   <nav
@@ -20,11 +32,11 @@ const Sidebar = ({ onClose, isOpen }) => (
 
       <Avatar img={eliPhoto} className='avatar-sidebar' />
 
-      <div className="navigationLink">
-        <Link onClick={onClose} href='#home'>Home</Link>
-        <Link onClick={onClose} href='#portfolio'>Portfolio</Link>
-        <Link onClick={onClose} href='#about'>About Me</Link>
-        <Link onClick={onClose} href='#contact'>Contact Me</Link>
+      <div className="navigation__content__link">
+        <Link href={linkTo.homeHome} label='Home' />
+        <Link href={linkTo.homePortfolio} label='Portfolio' />
+        <Link href={linkTo.homeAbout} label='About me' />
+        <Link href={linkTo.homeContact} label='Contact me' />
       </div>
     </div>
   </nav>

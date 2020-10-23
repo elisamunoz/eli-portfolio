@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 
+import { PATHS } from 'const';
 import Layout from 'ui/layout/index';
 import PageHome from 'pages/home';
 import PageHuemul from 'pages/projects/huemul';
@@ -18,20 +19,23 @@ const App = () => (
     <Layout>
 
       <Switch>
-        <Route exact path="/">
+        <Route exact path={PATHS.HOME}>
           <PageHome />
         </Route>
-        <Route path="/projects/huemul">
+        <Route path={PATHS.PROJECTS_HUEMUL}>
           <PageHuemul />
         </Route>
-        <Route path="/projects/birdsongs">
+        <Route path={PATHS.PROJECTS_BIRDSONGS}>
           <PageBirdsongs />
         </Route>
-        <Route path="/projects/stitchpirations">
+        <Route path={PATHS.PROJECTS_STITCHPIRATIONS}>
           <PageStitchpirations />
         </Route>
-        <Route path="/projects/catcus">
+        <Route path={PATHS.PROJECTS_CATCUS}>
           <PageCatcus />
+        </Route>
+        <Route path="*">
+          <PageHome />
         </Route>
       </Switch>
 
