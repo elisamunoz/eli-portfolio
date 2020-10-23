@@ -14,16 +14,21 @@ export const PATHS = {
 
 export const HOME_SECTIONS = {
   HOME: 'home',
-  CONTACT: 'contact',
-  ABOUT: 'about',
   PORTFOLIO: 'portfolio',
-  PROJECTS: 'projects',
+  ABOUT: 'about',
+  CONTACT: '✉️', // 'contact',
 }
 
-export var linkTo = {
-  home: () => PATHS.HOME,
-  projectsHuemul: () => PATHS.PROJECTS_HUEMUL,
-  projectsBirdsongs: () => PATHS.PROJECTS_BIRDSONGS,
-  projectsStitchspirations: () => PATHS.PROJECTS_STITCHPIRATIONS,
-  projectsCatcus: () => PATHS.PROJECTS_CATCUS,
+export const linkTo = {
+  home: PATHS.HOME,
+  projectsHuemul: PATHS.PROJECTS_HUEMUL,
+  projectsBirdsongs: PATHS.PROJECTS_BIRDSONGS,
+  projectsStitchspirations: PATHS.PROJECTS_STITCHPIRATIONS,
+  projectsCatcus: PATHS.PROJECTS_CATCUS,
+
+  // Home Sections
+  homeHome: `${PATHS.HOME}#${HOME_SECTIONS.HOME}`,
+  homePortfolio: `${PATHS.HOME}#${HOME_SECTIONS.PORTFOLIO}`,
+  homeAbout: `${PATHS.HOME}#${HOME_SECTIONS.ABOUT}`,
+  homeContact: `${PATHS.HOME}#${HOME_SECTIONS.CONTACT}`,
 };
