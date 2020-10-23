@@ -5,10 +5,17 @@ import styles from './Button.module.scss';
 
 const Button = ({
   children,
-  className = '', onClick, disabled = false }) => (
+  className = '',
+  onClick,
+  disabled = false
+}) => (
   <button
     onClick={onClick}
-    className={classnames(styles.btn, className)}
+    className={classnames(
+      styles.btn,
+      disabled && styles.btn_disabled,
+      className
+    )}
   >
     {children}
   </button>
