@@ -39,8 +39,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Deploy 🚀
-      # if: github.event == 'push'
-      if: {{ github.event == 'push' && github.ref == 'master' }}
+      if: github.event == 'push'
+      # if: {{ github.event == 'push' && github.ref == 'master' }}
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
