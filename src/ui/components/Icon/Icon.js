@@ -17,6 +17,7 @@ const Icon = ({ onClick, className, name = 'home' }) => (
 );
 
 Icon.propTypes = {
+  /** font-awesome icon name*/
   name: PropTypes.string,
   className: PropTypes.string,
   onClick: PropTypes.func,
