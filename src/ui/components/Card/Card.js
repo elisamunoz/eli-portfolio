@@ -17,8 +17,8 @@ const Card = ({
     <div className={styles.txtContainer}>
       <div className={styles.txt}>
         <div className={styles.txtContent}>
-          <h2>{title}</h2>
-          <p>{desc}</p>
+          <h2 className={styles.title}>{title}</h2>
+          <p className={styles.desc}>{desc}</p>
           <Button onClick={onClickMore}>
             More
           </Button>
