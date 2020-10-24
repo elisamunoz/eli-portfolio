@@ -5,7 +5,6 @@ import { linkTo } from 'const';
 import Avatar from 'ui/components/Avatar/Avatar';
 import Icon from 'ui/components/Icon';
 import eliPhoto from 'assets/img/elisa.jpg';
-import closeIcon from 'assets/img/close.png';
 import './Sidebar.scss';
 
 const Link = ({ label, href }) => (
@@ -27,7 +26,7 @@ const Sidebar = ({ onClose, isOpen }) => (
     )}
   >
     <div className="navigation__content">
-      <Icon onClick={onClose} img={closeIcon} className='close-icon' />
+      <Icon onClick={onClose} name='times' className='close-icon' />
 
       <Avatar img={eliPhoto} className='avatar-sidebar' />
 
