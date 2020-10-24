@@ -1,5 +1,11 @@
 @import "assets/styles/abstract/index.scss";
 
+.article {
+  text-align: justify;
+  max-width: 800px;
+  margin: auto;
+}
+
 .img {
   width: 100%;
   height: 150px;
