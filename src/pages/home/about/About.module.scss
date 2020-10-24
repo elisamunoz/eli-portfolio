@@ -16,7 +16,10 @@
 }
 
 .txt {
+  box-sizing: border-box;
+  display: inline-block;
   width: 50%;
   margin: auto;
-  display: inline-block;
+  padding: 0px 50px;
+  text-align: left;
 }
