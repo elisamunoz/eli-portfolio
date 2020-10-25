@@ -3,13 +3,16 @@ import Article from 'ui/components/Article';
 import Section from 'ui/components/Section';
 import Link from 'ui/components/Link';
 import { List, ListItem } from 'ui/components/List';
+import Pic4 from 'assets/img/portfolio/Stitchpirations_4.png'
 // import styles from './PageStitchpirations.module.scss';
 
 const Page = () => (
   <Section
     title='Stitchpirations'
   >
-    <Article>
+    <Article
+      img={Pic4}
+    >
       <p>
         This website is a dedicated to people that enjoy crocheting,knitting and sewing as hobby or way of life. The purpose of the app is to aggregate different patterns and articles related to the theme. The user is able to create, read, update and delete (CRUD) entries.
       </p>

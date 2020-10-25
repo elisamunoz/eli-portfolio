@@ -3,13 +3,16 @@ import Section from 'ui/components/Section';
 import Article from 'ui/components/Article';
 import Link from 'ui/components/Link';
 import { List, ListItem } from 'ui/components/List';
+import Pic4 from 'assets/img/portfolio/Birdsongs_4.png'
 // import styles from './PageBirdsongs.module.scss';
 
 const Page = () => (
   <Section
     title='Birdsongs of the World'
   >
-    <Article>
+    <Article
+      img={Pic4}
+    >
       <p>
         Birdsongs of the World is a website dedicated to sharing bird sounds from all over the world. Whether you are a research scientist, a birder, or simply curious about a sound you heard out the window, we invite you to listen, download, and explore the bird sound recordings in the collection.
         <br />
