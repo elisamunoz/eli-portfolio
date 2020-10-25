@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from 'ui/components/Section';
 import Article from 'ui/components/Article';
-import Link from 'ui/components/Link';
+import A from 'ui/components/A';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Birdsongs_4.png'
 // import styles from './PageBirdsongs.module.scss';
@@ -18,7 +18,7 @@ const Page = () => (
         <br />
         It connects to a third party API to obtain birdsong and geolocate some of the information using Google Maps.
         <br />
-        This website has been possible thanks to the <Link href="https://www.xeno-canto.org/article/153">Xeno-Canto Api</Link>.
+        This website has been possible thanks to the <A href="https://www.xeno-canto.org/article/153">Xeno-Canto Api</A>.
       </p>
     
     
@@ -37,8 +37,8 @@ const Page = () => (
         <ListItem>Google Fonts</ListItem>
       </List>
       <p>This website is hosted and deployed using GitHub pages.</p>
-      <p>Link to the GitHub repository <Link href='https://github.com/elisamunoz/birdsongs-project'>here</Link></p>
-      <p>Link to the live demo <Link href='https://elisamunoz.github.io/birdsongs-project/'>here</Link></p>
+      <p>Link to the GitHub repository <A href='https://github.com/elisamunoz/birdsongs-project'>here</A></p>
+      <p>Link to the live demo <A href='https://elisamunoz.github.io/birdsongs-project/'>here</A></p>
     </Article>
   </Section>
 );

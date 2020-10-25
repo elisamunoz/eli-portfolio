@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from 'ui/components/Article';
 import Section from 'ui/components/Section';
-import Link from 'ui/components/Link';
+import A from 'ui/components/A';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Stitchpirations_4.png'
 // import styles from './PageStitchpirations.module.scss';
@@ -46,8 +46,8 @@ const Page = () => (
 
 
       <p>This website is hosted and deployed using GitHub pages.</p>
-      <p>Link to the GitHub repository <Link href='https://github.com/elisamunoz/docu-llamas'>here</Link></p>
-      <p>Link to the live demo <Link href='https://docu-llama.herokuapp.com/'>here</Link></p>
+      <p>Link to the GitHub repository <A href='https://github.com/elisamunoz/docu-llamas'>here</A></p>
+      <p>Link to the live demo <A href='https://docu-llama.herokuapp.com/'>here</A></p>
       <p>Patterns are hosted using MongoDB</p>
     </Article>
   </Section>

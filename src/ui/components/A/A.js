@@ -1,8 +1,8 @@
 import React from 'react';
 import classnames from 'classnames';
-import styles from './Link.module.scss';
+import styles from './A.module.scss';
 
-const Link = ({
+const A = ({
   onClick,
   href,
   className,
@@ -10,10 +10,10 @@ const Link = ({
 }) => (
   <a onClick={onClick} 
     href={href}
-    className={classnames(styles.link, className)}
+    className={classnames(styles.A, className)}
   >
     {children}
   </a>
 );
 
-export default Link;
+export default A;
