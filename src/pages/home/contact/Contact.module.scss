@@ -11,11 +11,26 @@
 
 .info {
   margin: auto;
+  padding: 30px 0;
   width: 100%;
   background: red;
   @media (min-width: $breakpoint-desktop) {
     width: 50%;
   }
+}
+
+.infoTitle {
+  font-size: 1.3em;
+}
+
+.infoTxt {
+  padding: 15px 0;
+  font-size: 1.2em;
+}
+
+.contactIcon {
+  font-size: 1.3em;
+  padding: 0 5px;
 }
 
 .form {

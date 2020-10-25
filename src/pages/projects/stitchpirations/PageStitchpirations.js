@@ -3,8 +3,7 @@ import Article from 'ui/components/Article';
 import Section from 'ui/components/Section';
 import A from 'ui/components/A';
 import { List, ListItem } from 'ui/components/List';
-import Pic4 from 'assets/img/portfolio/Stitchpirations_4.png'
-import styles from './PageStitchpirations.module.scss';
+import Pic4 from 'assets/img/portfolio/Stitchpirations_4.png';
 
 const Page = () => (
   <Section
