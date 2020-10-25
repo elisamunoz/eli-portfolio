@@ -14,8 +14,14 @@
 
 .innerContainer {
   margin: auto;
-  width: 100%;
+  width: 80%;
   max-width: 1500px;
+
+  @media (min-width: $breakpoint-desktop) {
+    width: 100%;
+}
+
+
 }
 
 .title {

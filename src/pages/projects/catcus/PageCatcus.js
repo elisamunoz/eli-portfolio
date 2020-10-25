@@ -3,13 +3,16 @@ import Section from 'ui/components/Section';
 import Article from 'ui/components/Article';
 import Link from 'ui/components/Link';
 import { List, ListItem } from 'ui/components/List';
+import Catcus4 from 'assets/img/portfolio/Catcus_4.png'
 // import styles from './PageCatcus.module.scss';
 
 const Page = () => (
   <Section
     title='Catcus'
   >
-    <Article>
+    <Article
+      img={Catcus4}
+    >
       <p>
         Catcus Shop is an eCommerce website dedicated to sell plants. This project is to support beginner, or advanced gardeners or what we know as “plant parents”, in a greeny-colorful journey. Gardening has proven to be beneficial for one’s mood. In fact, gardening has even be prescribed in some situations where patients experience such things as anxiety and depression.'
       </p>

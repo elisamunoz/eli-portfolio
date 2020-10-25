@@ -3,10 +3,20 @@
 .card {
   border-radius: $border-radius;
   border: solid purple 2px;
-  width: 94%;
-  margin: 3% auto;
+  width: 100%;
+  margin: 5% auto;
   overflow: hidden;
   z-index: -1;
+
+  @media (min-width: $breakpoint-tablet) {
+    width: 46%;
+    margin: 1%;
+    display: inline-block;
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+      width: 30%;
+  }
 }
 
 .imgContainer {
@@ -67,18 +77,4 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-@media (min-width: $breakpoint-tablet) {
-  .card {
-    width: 46%;
-    margin: 1%;
-    display: inline-block;
-  }
-}
-
-@media (min-width: $breakpoint-desktop) {
-  .card {
-    width: 30%;
-  }
 }
