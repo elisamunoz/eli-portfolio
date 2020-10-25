@@ -4,7 +4,7 @@ import Section from 'ui/components/Section';
 import A from 'ui/components/A';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Stitchpirations_4.png'
-// import styles from './PageStitchpirations.module.scss';
+import styles from './PageStitchpirations.module.scss';
 
 const Page = () => (
   <Section
@@ -44,11 +44,12 @@ const Page = () => (
         <ListItem>Parallax effect</ListItem>
       </List>
 
-
-      <p>This website is hosted and deployed using GitHub pages.</p>
-      <p>Link to the GitHub repository <A href='https://github.com/elisamunoz/docu-llamas'>here</A></p>
-      <p>Link to the live demo <A href='https://docu-llama.herokuapp.com/'>here</A></p>
-      <p>Patterns are hosted using MongoDB</p>
+      <List title='Deployment:'>
+        <List.Item>This website is hosted and deployed using GitHub pages.</List.Item>
+        <List.Item>Link to the GitHub repository <A href='https://github.com/elisamunoz/docu-llamas'>here</A></List.Item>
+        <List.Item>Link to the live demo <A href='https://docu-llama.herokuapp.com/'>here</A></List.Item>
+        <List.Item>MongoDB: to host patterns information.</List.Item>
+      </List>
     </Article>
   </Section>
 );

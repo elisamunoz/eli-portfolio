@@ -36,9 +36,12 @@ const Page = () => (
         <ListItem>Data Table</ListItem>
         <ListItem>Google Fonts</ListItem>
       </List>
-      <p>This website is hosted and deployed using GitHub pages.</p>
-      <p>Link to the GitHub repository <A href='https://github.com/elisamunoz/birdsongs-project'>here</A></p>
-      <p>Link to the live demo <A href='https://elisamunoz.github.io/birdsongs-project/'>here</A></p>
+
+      <List title='Deployment:'>
+        <ListItem>This website is hosted and deployed using GitHub pages.</ListItem>
+        <List.Item>Link to the GitHub repository <A href='https://github.com/elisamunoz/birdsongs-project'>here</A></List.Item>
+        <List.Item>Link to the live demo <A href='https://elisamunoz.github.io/birdsongs-project/'>here</A></List.Item>
+      </List>
     </Article>
   </Section>
 );
