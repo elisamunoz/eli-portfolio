@@ -13,9 +13,11 @@ const Home = () => (
       subtitle="I’m a Junior Software Developer looking for my first job in IT. I have just graduated from the Code Institute in Ireland."
       img={homeImg}
   >
-    <Button>
-      Download my CV
-    </Button>
+    <div className={styles.homeContent}>
+      <Button>
+        Download my CV
+      </Button>
+    </div>
   </Section>
 );
 

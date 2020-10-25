@@ -17,7 +17,6 @@
   top: 0;
   bottom: 0;
   width: var(--nav-size);
-  background: red;
   margin-left: calc(-1 * var(--nav-size));
   z-index: 10;
   transition: margin-left 0.5s ease;
@@ -26,20 +25,25 @@
   margin-left: 0;
 }
 
+.avatar_icon {
+  height: $avatar-size;
+  width: $avatar-size;
+  padding: $avatar-picture-padding 0;
+  margin: auto;
+
+  @include vertical-align;
+}
+
 .close-icon {
   position: absolute;
   right: $icon-toggle-position;
   top: $icon-toggle-position;
 }
 
-.avatar-sidebar {
-  margin: $avatar-margin auto;
-}
-
 .navigationLink {
   color: var(--main-color);
   font-size: 1.5em;
-  line-height: 40px;
+  line-height: $sidebar-line-heigth;
 }
 
 .navigationLink a {

@@ -1,8 +1,18 @@
 @import "assets/styles/abstract/index.scss";
 
 .home {
-    height: 100vh;
-    background-attachment: fixed;
-    
-    @include bg-cover;
+  height: 100vh;
+  background-attachment: fixed;
+
+  @include bg-cover;
 }
+
+// .homeContent {
+//   display: flex;
+//   flex-direction: column;
+
+//   @media (min-width: $breakpoint-desktop) {
+//   flex-direction: row;
+//   } 
+// }
+

@@ -2,7 +2,7 @@
 
 .card {
   border-radius: $border-radius;
-  border: solid purple 2px;
+  border: solid gray 2px;
   width: 100%;
   margin: 5% auto;
   overflow: hidden;
@@ -41,7 +41,6 @@
 }
 
 .txtContainer {
-  background: red;
   text-align: center;
   width: 100%;
   min-height: 150px;
@@ -49,9 +48,7 @@
 }
 
 .txt {
-  display: flex;
-  flex-grow: 1;
-  align-self: center;
+  @include vertical-align;
 }
 
 .txtContent {
