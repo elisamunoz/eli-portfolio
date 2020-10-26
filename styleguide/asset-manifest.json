@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/eli-portfolio/static/css/main.f5450093.chunk.css",
-    "main.js": "/eli-portfolio/build/main.80b25510.js",
+    "main.js": "/eli-portfolio/build/main.b8d27ae9.js",
     "runtime-main.js": "/eli-portfolio/build/bundle.a0a319cd.js",
     "static/css/2.70fd594c.chunk.css": "/eli-portfolio/static/css/2.70fd594c.chunk.css",
-    "build/2.06bfb0d8.js": "/eli-portfolio/build/2.06bfb0d8.js",
-    "build/2.06bfb0d8.js.LICENSE.txt": "/eli-portfolio/build/2.06bfb0d8.js.LICENSE.txt",
+    "build/2.711b930e.js": "/eli-portfolio/build/2.711b930e.js",
+    "build/2.711b930e.js.LICENSE.txt": "/eli-portfolio/build/2.711b930e.js.LICENSE.txt",
     "index.html": "/eli-portfolio/index.html",
-    "precache-manifest.80e433348f511de1c754e18ffab57233.js": "/eli-portfolio/precache-manifest.80e433348f511de1c754e18ffab57233.js",
+    "precache-manifest.bb9d46b3131c13be2039eab55c7d6ffd.js": "/eli-portfolio/precache-manifest.bb9d46b3131c13be2039eab55c7d6ffd.js",
     "service-worker.js": "/eli-portfolio/service-worker.js",
     "static/css/2.70fd594c.chunk.css.map": "/eli-portfolio/static/css/2.70fd594c.chunk.css.map",
     "static/css/main.f5450093.chunk.css.map": "/eli-portfolio/static/css/main.f5450093.chunk.css.map",
@@ -17,8 +17,8 @@
   "entrypoints": [
     "build/bundle.a0a319cd.js",
     "static/css/2.70fd594c.chunk.css",
-    "build/2.06bfb0d8.js",
+    "build/2.711b930e.js",
     "static/css/main.f5450093.chunk.css",
-    "build/main.80b25510.js"
+    "build/main.b8d27ae9.js"
   ]
 }
