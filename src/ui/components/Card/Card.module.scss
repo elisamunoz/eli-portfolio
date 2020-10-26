@@ -1,4 +1,4 @@
-@import "assets/styles/abstract/index.scss";
+  @import "assets/styles/abstract/index.scss";
 
 .card {
   border-radius: $border-radius;
@@ -6,7 +6,6 @@
   width: 100%;
   margin: 5% auto;
   overflow: hidden;
-  z-index: -1;
 
   @media (min-width: $breakpoint-tablet) {
     width: 46%;
@@ -61,17 +60,20 @@
 }
 
 .title {
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+
 }
 
 .desc {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+  }
 }
