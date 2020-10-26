@@ -2,7 +2,7 @@ import React from 'react';
 import { HOME_SECTIONS } from 'const';
 import Section from 'ui/components/Section';
 import Icon from 'ui/components/Icon';
-import  styles from './Contact.module.scss';
+import styles from './Contact.module.scss';
 
 const Contact = () => (
   <Section
