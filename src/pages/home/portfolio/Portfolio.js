@@ -24,8 +24,8 @@ const Portfolio = () => {
         <Card
           image={huemulPhoto}
           onClickMore={goTo.projectHuemul}
-          title='The Huemul Organization The Huemul Organization'
-          desc='This Organization is a NGO created to conserve the endangered Huemul in Chilean Patagonia. This Organization is a NGO created to conserve the endangered Huemul in Chilean Patagonia. This Organization is a NGO created to conserve the endangered Huemul in Chilean Patagonia.'
+          title='The Huemul Organization'
+          desc='This Organization is a NGO created to conserve the endangered Huemul in Chilean Patagonia.'
         />
         <Card
           image={birdsongsPhoto}

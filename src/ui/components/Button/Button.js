@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
+import Icon from 'ui/components/Icon';
 import styles from './Button.module.scss';
 
 const Button = ({
   children,
   className = '',
   onClick,
-  disabled = false
+  disabled = false,
+  iconName,
 }) => (
   <button
     onClick={onClick}
@@ -18,6 +20,9 @@ const Button = ({
     )}
   >
     {children}
+    {iconName &&
+      <Icon name={iconName} className={styles.icon} />
+    }
   </button>
 );
 
@@ -25,6 +30,7 @@ Button.propTypes = {
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
   disabled: PropTypes.bool,
+  iconName: PropTypes.string,
 };
 
 export default Button;

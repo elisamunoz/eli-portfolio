@@ -5,13 +5,13 @@
   flex-direction: column;
 
   @media (min-width: $breakpoint-desktop) {
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 }
 
 .txtContainer {
   width: 100%;
-  height: 50vh;
+  min-height: 50vh;
 
   @include vertical-align;
 
@@ -45,10 +45,19 @@
 }
 
 .title {
-  font-size: 2.3em;
+  font-size: 2.2em;
+
+  @media (min-width: $breakpoint-tablet) {
+    font-size: 5em;
+  }
 }
 
 .subtitle {
-  font-size: 1.1em;
-  padding: 20px 0;
+  font-size: 1.3em;
+  padding: 15px 0;
+
+  @media (min-width: $breakpoint-tablet) {
+    font-size: 1.9em;
+    padding: 30px 50px;
+  }
 }
