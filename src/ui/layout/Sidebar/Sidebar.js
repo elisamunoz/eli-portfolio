@@ -26,10 +26,10 @@ const Sidebar = ({ onClose, isOpen }) => (
     )}
   >
     <div className="navigation__content">
-      <Icon onClick={onClose} name='times' className='close-icon' />
-
-      <Avatar img={eliPhoto} className='avatar-sidebar' />
-
+      <div className='avatar_icon'>
+        <Icon onClick={onClose} name='times' className='close-icon' />
+        <Avatar img={eliPhoto} className='avatar-sidebar' />
+      </div>
       <div className="navigation__content__link">
         <Link href={linkTo.homeHome} label='Home' />
         <Link href={linkTo.homePortfolio} label='Portfolio' />

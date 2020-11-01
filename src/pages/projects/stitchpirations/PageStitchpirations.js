@@ -1,15 +1,17 @@
 import React from 'react';
 import Article from 'ui/components/Article';
 import Section from 'ui/components/Section';
-import Link from 'ui/components/Link';
+import A from 'ui/components/A';
 import { List, ListItem } from 'ui/components/List';
-// import styles from './PageStitchpirations.module.scss';
+import Pic4 from 'assets/img/portfolio/Stitchpirations_4.png';
 
 const Page = () => (
   <Section
     title='Stitchpirations'
   >
-    <Article>
+    <Article
+      img={Pic4}
+    >
       <p>
         This website is a dedicated to people that enjoy crocheting,knitting and sewing as hobby or way of life. The purpose of the app is to aggregate different patterns and articles related to the theme. The user is able to create, read, update and delete (CRUD) entries.
       </p>
@@ -41,11 +43,12 @@ const Page = () => (
         <ListItem>Parallax effect</ListItem>
       </List>
 
-
-      <p>This website is hosted and deployed using GitHub pages.</p>
-      <p>Link to the GitHub repository <Link href='https://github.com/elisamunoz/docu-llamas'>here</Link></p>
-      <p>Link to the live demo <Link href='https://docu-llama.herokuapp.com/'>here</Link></p>
-      <p>Patterns are hosted using MongoDB</p>
+      <List title='Deployment:'>
+        <List.Item>This website is hosted and deployed using GitHub pages.</List.Item>
+        <List.Item>Link to the GitHub repository <A href='https://github.com/elisamunoz/docu-llamas'>here</A></List.Item>
+        <List.Item>Link to the live demo <A href='https://docu-llama.herokuapp.com/'>here</A></List.Item>
+        <List.Item>MongoDB: to host patterns information.</List.Item>
+      </List>
     </Article>
   </Section>
 );

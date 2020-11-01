@@ -1,15 +1,18 @@
 import React from 'react';
 import Section from 'ui/components/Section';
 import Article from 'ui/components/Article';
-import Link from 'ui/components/Link';
+import A from 'ui/components/A';
 import { List, ListItem } from 'ui/components/List';
+import Pic4 from 'assets/img/portfolio/Catcus_4.png'
 // import styles from './PageCatcus.module.scss';
 
 const Page = () => (
   <Section
     title='Catcus'
   >
-    <Article>
+    <Article
+      img={Pic4}
+    >
       <p>
         Catcus Shop is an eCommerce website dedicated to sell plants. This project is to support beginner, or advanced gardeners or what we know as “plant parents”, in a greeny-colorful journey. Gardening has proven to be beneficial for one’s mood. In fact, gardening has even be prescribed in some situations where patients experience such things as anxiety and depression.'
       </p>
@@ -47,8 +50,8 @@ const Page = () => (
 
         <List title='Hosting'>
         <List.Item>S3 Buckets from AWS: to host images and static files including CSS and Javascript</List.Item>
-        <List.Item>Github: for version control of project code. Link to the repository <Link href='https://github.com/elisamunoz/cactus-shop'>here</Link></List.Item>
-        <List.Item>Heroku: to host the live view of this project. Link to the live demo <Link href='http://catcus-shop.herokuapp.com/'>here</Link></List.Item>
+        <List.Item>Github: for version control of project code. Link to the repository <A href='https://github.com/elisamunoz/cactus-shop'>here</A></List.Item>
+        <List.Item>Heroku: to host the live view of this project. Link to the live demo <A href='http://catcus-shop.herokuapp.com/'>here</A></List.Item>
       </List>
     </Article>
   </Section>
