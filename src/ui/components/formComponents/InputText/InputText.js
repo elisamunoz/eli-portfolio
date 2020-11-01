@@ -5,7 +5,7 @@ import Wrapper from 'ui/components/formComponents/FieldWrapper';
 import styles from './InputText.module.scss';
 
 export const InputText = (props) => {
-  const { name } = props;
+  const { name, placeholder } = props;
 
   return (
     <Wrapper {...props}>
@@ -15,6 +15,7 @@ export const InputText = (props) => {
             {...props.input}
             id={name}
             className={styles.input}
+            placeholder={placeholder}
           />
         )}
       </Field>

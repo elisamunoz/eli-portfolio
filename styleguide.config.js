@@ -18,9 +18,15 @@ module.exports = {
     },
     {
       name: 'UI Components',
-      components: 'src/ui/components/**/[A-Z]*.js',
-      exampleMode: 'expand', // 'hide' | 'collapse' | 'expand'
-      usageMode: 'expand' // 'hide' | 'collapse' | 'expand'
+      components: 'src/ui/components/*/[A-Z]*.js',
+      exampleMode: 'collapse', // 'hide' | 'collapse' | 'expand'
+      usageMode: 'expand', // 'hide' | 'collapse' | 'expand'
+    },
+    {
+      name: 'UI Form Components',
+      components: 'src/ui/components/formComponents/*/[A-Z]*.js',
+      exampleMode: 'collapse',
+      usageMode: 'expand',
     }
   ]
 };
