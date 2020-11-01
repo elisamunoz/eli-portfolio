@@ -1,0 +1,8 @@
+@import "assets/styles/abstract/index.scss";
+
+.textarea {
+  @include fieldBox();
+
+  resize: vertical;
+  min-height: 4.5em;
+}
