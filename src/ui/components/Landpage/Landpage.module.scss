@@ -27,6 +27,7 @@
 
   @media (min-width: $breakpoint-desktop) {
     max-width: 60%;
+    text-align: right;
   }
 }
 
@@ -34,7 +35,6 @@
   width: 100%;
   margin: auto;
   height: 50vh;
-  background: aqua;
 
   @include bg-cover;
 
@@ -46,18 +46,22 @@
 
 .title {
   font-size: 2.2em;
+  line-height: 1.1;
+
 
   @media (min-width: $breakpoint-tablet) {
-    font-size: 5em;
+    font-size: 5.5em;
   }
 }
 
 .subtitle {
   font-size: 1.3em;
   padding: 15px 0;
+  // color: #737373;
+  color: $color-secondary-text;
 
   @media (min-width: $breakpoint-tablet) {
     font-size: 1.9em;
-    padding: 30px 50px;
+    padding: 30px 0;
   }
 }

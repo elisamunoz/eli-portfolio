@@ -3,6 +3,7 @@ import { HOME_SECTIONS } from 'const';
 import Section from 'ui/components/Section';
 import Icon from 'ui/components/Icon';
 import styles from './Contact.module.scss';
+import A from 'ui/components/A';
 
 const Contact = () => (
   <Section
@@ -22,14 +23,18 @@ const Contact = () => (
             elisamunozes@gmail.com
         </p>
         <div className={styles.socialMedia}>
+          <A href='https://github.com/elisamunoz'>
             <Icon
               name='github'
               className={styles.contactIcon}
             />
+          </A>
+          <A href='https://www.linkedin.com/in/elisamunozes/'>
             <Icon
               name='linkedin'
               className={styles.contactIcon}
             />
+          </A>
         </div>
       </div>
       <div className={styles.form}>

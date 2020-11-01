@@ -9,9 +9,15 @@ const Home = () => (
   <Landpage
     id={HOME_SECTIONS.HOME}
     className={styles.home}
-    title="Hi there, I'm Elisa!"
+    title={(
+      <>
+        Hola,<br />
+        I'm Elisa!
+      </>
+    )}
     subtitle="I’m a Junior Software Developer looking for my first job in IT."
     img={homeImg}
+    imgSection={styles.imgHome}
   >
     <Button className={styles.btn}>
       Download my CV
