@@ -15,15 +15,12 @@ frontend:
 - any: ['src/**/*.js']
   all: ['!src/main.js']
 
-fe:
-- any: ['src/**/*.scss']
-  all: ['!src/main.js']
-
-fee:
-- any: ['src/**/*.scss']
 
 styles 🦋:
-- any: ['src/**/*.css', 'src/**/*.scss', 'src/**/*.less', 'src/**/*.sass']
+- any: ['src/**/*.scss']
+
+# styles 🦋:
+# - any: ['src/**/*.css', 'src/**/*.scss', 'src/**/*.less', 'src/**/*.sass']
 
 st 🦋:
 - any: ['src/**/*.module.css', 'src/**/*.module.scss', 'src/**/*.module.less', 'src/**/*.module.sass']
