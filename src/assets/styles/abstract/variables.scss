@@ -12,6 +12,7 @@ $text-black: $black;
 /* --- Colors --- */
 /* -------------- */
 $color-main: $yellow;
+$color-secondary: #fbf6f0;
 $color-main-text: $text-black;
 $color-main-dark: darken($color-main, 20%);
 $color-main-darker: darken($color-main, 40%);
@@ -30,7 +31,7 @@ $border-width: 1px;
 $border-color: $color-main;
 $border: $border-style $border-width $border-color;
 
-$icon-toggle-position: 15px;
+$icon-toggle-position: 10px;
 
 $transition-duration: 0.5s;
 $transition-timing: ease;
@@ -40,8 +41,9 @@ $transition: $transition-duration $transition-timing $transition-property;
 /* --------------- */
 /* --- Sidebar --- */
 /* --------------- */
-$avatar-margin: 60px;
-$sidebar-line-heigth: 40px;
+$avatar-size: 150px;
+$avatar-picture-padding: 25px;
+$sidebar-line-heigth: 35px;
 
 
 

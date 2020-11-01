@@ -1,7 +1,8 @@
 import React from 'react';
 import { HOME_SECTIONS } from 'const';
 import Section from 'ui/components/Section';
-import  styles from './Contact.module.scss';
+import Icon from 'ui/components/Icon';
+import styles from './Contact.module.scss';
 
 const Contact = () => (
   <Section
@@ -16,18 +17,19 @@ const Contact = () => (
           Get in touch with me!
         </h4>
         <p className={styles.infoTxt}>
-            Sandyford,<br />
-            Dublin18,<br />
+            Sandyford, Dublin18,<br />
             Ireland<br />
             elisamunozes@gmail.com
         </p>
-        <div className={styles.socialMedia}>>
-            <div className={styles.link}>
-                Linkedin
-            </div>
-            <div className={styles.link}>
-                github
-            </div>
+        <div className={styles.socialMedia}>
+            <Icon
+              name='github'
+              className={styles.contactIcon}
+            />
+            <Icon
+              name='linkedin'
+              className={styles.contactIcon}
+            />
         </div>
       </div>
       <div className={styles.form}>
