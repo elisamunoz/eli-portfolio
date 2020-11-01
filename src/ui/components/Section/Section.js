@@ -9,6 +9,7 @@ const Section = ({
   children,
   className,
   img,
+  backgroundContent,
 }) => (
   <section
     id={id}
@@ -16,7 +17,7 @@ const Section = ({
     style={{ backgroundImage:`url(${img})` }}
   >
     <div className={styles.container}>
-      <div className={styles.innerContainer}>
+      <div className={classnames(styles.innerContainer, backgroundContent)}>
         <h1 className={styles.title}>
           {title}
         </h1>

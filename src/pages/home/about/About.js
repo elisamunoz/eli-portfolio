@@ -11,7 +11,6 @@ const About = () => (
     id={HOME_SECTIONS.ABOUT}
     className={styles.about}
     title='About Me'
-    subtitle="I'm Elisa"
   >
     <div className={styles.aboutContent}>
       <div className={styles.img}>

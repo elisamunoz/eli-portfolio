@@ -6,6 +6,7 @@ import styles from './Contact.module.scss';
 import A from 'ui/components/A';
 import Button from 'ui/components/Button';
 import { Form, Field } from 'ui/components/formComponents';
+import llamaPhoto from 'assets/img/llama.jpg';
 
 const Contact = () => (
   <Section
@@ -13,6 +14,8 @@ const Contact = () => (
     className={styles.contact}
     title='Contact Me'
     subtitle='Interested in working together? Don’t hesitate to reach out to me filling out the contact form below, or just calling me.'
+    img={llamaPhoto}
+    backgroundContent={styles.backgroundContent}
   >
     <div className={styles.contactContent}>
       <div className={styles.info}>
@@ -43,7 +46,7 @@ const Contact = () => (
         <Form onSubmit={(v) => console.log(v)}>
           <Field
             name='name'
-            label='Your Name'
+            label='Your Name *Form is work in progress'
             placeholder="e.g. U. Name"
           />
           <Field

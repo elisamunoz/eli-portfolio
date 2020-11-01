@@ -9,7 +9,6 @@ import birdsongsPhoto from 'assets/img/portfolio/Birdsongs_1.png';
 import stitchsPhoto from 'assets/img/portfolio/Stitchpirations_1.png';
 import catcusPhoto from 'assets/img/portfolio/Catcus_1.png';
 
-
 const Portfolio = () => {
   const [goTo] = useLink();
 
@@ -18,7 +17,6 @@ const Portfolio = () => {
       id={HOME_SECTIONS.PORTFOLIO}
       className={styles.portfolio}
       title='Portfolio'
-      subtitle='This is my portfolio'
     >
       <Card.Group>
         <Card

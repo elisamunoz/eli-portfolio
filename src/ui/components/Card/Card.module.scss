@@ -2,10 +2,9 @@
 
 .card {
   border-radius: $border-radius;
-  // border: solid $color-border 2px;
+  background: $color-button-text;
   
   border: 1px solid $color-border;
-  // padding: 10px;
   box-shadow: 2px 3px $color-border;
 
   width: 100%;

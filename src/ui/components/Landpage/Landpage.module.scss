@@ -12,6 +12,7 @@
 .txtContainer {
   width: 100%;
   min-height: 50vh;
+  background: $color-background-one;
 
   @include vertical-align;
 
@@ -47,6 +48,7 @@
 .title {
   font-size: 2.2em;
   line-height: 1.1;
+  color: $color-title-text;
 
 
   @media (min-width: $breakpoint-tablet) {

@@ -14,12 +14,18 @@ $text-black: $black;
 $color-main: $yellow;
 $color-secondary: #fbf6f0;
 
-$color-main-text: #252525;
-$color-secondary-text: #69b9bd;
+$color-main-text: #31383f;
+$color-title-text: #d9415d;
+$color-secondary-text: #757575;
+$color-background-one: #fafafa;
+// $color-background-one: #f2cece;
+
+
 $color-main-dark: darken($color-main, 20%);
 $color-main-darker: darken($color-main, 40%);
 
-$color-button: #febeb0;
+// $color-button: #febeb0;
+$color-button: #3a3142;
 $color-button-text: #ffffff;
 $color-border: #f5f5f5;
 
