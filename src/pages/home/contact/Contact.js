@@ -4,6 +4,8 @@ import Section from 'ui/components/Section';
 import Icon from 'ui/components/Icon';
 import styles from './Contact.module.scss';
 import A from 'ui/components/A';
+import Button from 'ui/components/Button';
+import { Form, Field } from 'ui/components/formComponents';
 
 const Contact = () => (
   <Section
@@ -38,7 +40,25 @@ const Contact = () => (
         </div>
       </div>
       <div className={styles.form}>
-      
+        <Form onSubmit={(v) => console.log(v)}>
+          <Field
+            name='name'
+            label='Your Name'
+            placeholder="e.g. U. Name"
+          />
+          <Field
+            name='email'
+            label='Email'
+            placeholder="e.g. username@example.com"
+          />
+          <Field
+            type='textarea'
+            label='Message'
+            name='message'
+            placeholder="Write a message..."
+          />
+          <Button>Submit</Button>
+        </Form>
       </div>
     </div>
   </Section>

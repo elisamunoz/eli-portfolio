@@ -13,6 +13,7 @@
   width: 100%;
   padding-bottom: 30px;
   transform: scaleX(-1);
+  margin: auto;
 
   @media (min-width: $breakpoint-desktop) {
     width: 50%;
