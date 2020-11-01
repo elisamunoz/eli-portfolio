@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b9e60f565c139b614a1bc54270e2d68",
+    "revision": "8abc18295cd1d1576967812c7f5b3999",
     "url": "/eli-portfolio/index.html"
   },
   {
-    "revision": "a01d8a946fa5f2abbf59",
+    "revision": "bae74b57c86c199b8d32",
     "url": "/eli-portfolio/static/css/2.ee804979.chunk.css"
   },
   {
-    "revision": "b9e6844572701c382a74",
-    "url": "/eli-portfolio/static/css/main.8a9d34e2.chunk.css"
+    "revision": "9ff4fd516073a68ac921",
+    "url": "/eli-portfolio/static/css/main.6b089774.chunk.css"
   },
   {
-    "revision": "a01d8a946fa5f2abbf59",
-    "url": "/eli-portfolio/static/js/2.e50d7eed.chunk.js"
+    "revision": "bae74b57c86c199b8d32",
+    "url": "/eli-portfolio/static/js/2.18fc8391.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/eli-portfolio/static/js/2.e50d7eed.chunk.js.LICENSE.txt"
+    "url": "/eli-portfolio/static/js/2.18fc8391.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9e6844572701c382a74",
-    "url": "/eli-portfolio/static/js/main.84eb4ad4.chunk.js"
+    "revision": "9ff4fd516073a68ac921",
+    "url": "/eli-portfolio/static/js/main.b58b6a43.chunk.js"
   },
   {
     "revision": "e6929e93da56423b9ae2",
@@ -32,16 +32,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eli-portfolio/static/media/Birdsongs_1.e41e5a3b.png"
   },
   {
+    "revision": "1fccee7ebc8908a33b418193dfd7fd34",
+    "url": "/eli-portfolio/static/media/Birdsongs_4.1fccee7e.png"
+  },
+  {
     "revision": "e985ad587f36f0adab1054fc6cb87f4a",
     "url": "/eli-portfolio/static/media/Catcus_1.e985ad58.png"
+  },
+  {
+    "revision": "f94615f07c1d07242736cfeba7581deb",
+    "url": "/eli-portfolio/static/media/Catcus_4.f94615f0.png"
   },
   {
     "revision": "ca3ea8fa9f5c1d60952e14e7b6dc005d",
     "url": "/eli-portfolio/static/media/Huemul_1.ca3ea8fa.png"
   },
   {
+    "revision": "bcd6e4ffc2115085659a8295b808b4ff",
+    "url": "/eli-portfolio/static/media/Huemul_4.bcd6e4ff.png"
+  },
+  {
     "revision": "cbf050068fdbad76f8ad6caf43b5f969",
     "url": "/eli-portfolio/static/media/Stitchpirations_1.cbf05006.png"
+  },
+  {
+    "revision": "3bc88514e76c2e4c622d13959ae930f8",
+    "url": "/eli-portfolio/static/media/Stitchpirations_4.3bc88514.png"
   },
   {
     "revision": "c460b4f56023852d8b2349154f6b4160",
@@ -66,5 +82,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/eli-portfolio/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "cc5a1a75853edb33bc3b350c49dc221c",
+    "url": "/eli-portfolio/static/media/home.cc5a1a75.jpg"
   }
 ]);
