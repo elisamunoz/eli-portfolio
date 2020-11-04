@@ -9,6 +9,7 @@ const Landpage = ({
   subtitle,
   img,
   children,
+  imgSection,
 }) => (
   <section
     id={id}
@@ -16,7 +17,7 @@ const Landpage = ({
   >
     <div className={styles.landpageContent}>
       <div 
-        className={styles.img}
+        className={classnames(styles.img, imgSection)}
         style={{ backgroundImage:`url(${img})` }}
       />
       <div className={styles.txtContainer}>

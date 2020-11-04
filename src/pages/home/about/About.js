@@ -3,7 +3,7 @@ import { HOME_SECTIONS } from 'const';
 import Section from 'ui/components/Section';
 import Img from 'ui/components/Img';
 import styles from'./About.module.scss';
-import homeImg from 'assets/img/home.jpg';
+import aboutImg from 'assets/img/about.jpg';
 
 
 const About = () => (
@@ -11,12 +11,11 @@ const About = () => (
     id={HOME_SECTIONS.ABOUT}
     className={styles.about}
     title='About Me'
-    subtitle="I'm Elisa"
   >
     <div className={styles.aboutContent}>
       <div className={styles.img}>
         <Img
-          src={homeImg}
+          src={aboutImg}
           alt='About image'
         />
       </div>

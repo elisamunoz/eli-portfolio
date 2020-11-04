@@ -9,7 +9,6 @@ import birdsongsPhoto from 'assets/img/portfolio/Birdsongs_1.png';
 import stitchsPhoto from 'assets/img/portfolio/Stitchpirations_1.png';
 import catcusPhoto from 'assets/img/portfolio/Catcus_1.png';
 
-
 const Portfolio = () => {
   const [goTo] = useLink();
 
@@ -18,14 +17,13 @@ const Portfolio = () => {
       id={HOME_SECTIONS.PORTFOLIO}
       className={styles.portfolio}
       title='Portfolio'
-      subtitle='This is my portfolio'
     >
       <Card.Group>
         <Card
           image={huemulPhoto}
           onClickMore={goTo.projectHuemul}
-          title='The Huemul Organization The Huemul Organization'
-          desc='This Organization is a NGO created to conserve the endangered Huemul in Chilean Patagonia. This Organization is a NGO created to conserve the endangered Huemul in Chilean Patagonia. This Organization is a NGO created to conserve the endangered Huemul in Chilean Patagonia.'
+          title='The Huemul Organization'
+          desc='This Organization is a NGO created to conserve the endangered Huemul in Chilean Patagonia.'
         />
         <Card
           image={birdsongsPhoto}

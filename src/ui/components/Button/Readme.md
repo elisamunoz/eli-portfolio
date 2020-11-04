@@ -1,4 +1,4 @@
-Basic button:
+### Basic button:
 
 ```jsx padded
 <Button>Push Me</Button>
@@ -7,7 +7,7 @@ Basic button:
 ```
 
 
-Disabled:
+### Disabled:
 
 ```jsx padded
 <Button>Active</Button>
@@ -15,7 +15,7 @@ Disabled:
 ```
 
 
-onClick actions:
+### onClick actions:
 
 ```jsx
 const [isOpen, setisOpen] = React.useState(false);
@@ -33,4 +33,13 @@ const [isOpen, setisOpen] = React.useState(false);
     </Button>
   )}
 </div>
+```
+
+
+### With Icon:
+
+```jsx padded
+<Button>Push Me</Button>
+<Button iconName="plus">Click Me</Button>
+<Button iconName="user">Tap Me</Button>
 ```
