@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "313309b01635449519a4a6c1cd379f54",
+    "revision": "91cd05a9126827aca8f981858657d2d2",
     "url": "/eli-portfolio/index.html"
   },
   {
-    "revision": "bae74b57c86c199b8d32",
+    "revision": "3d0cbc88525b03399b6d",
     "url": "/eli-portfolio/static/css/2.ee804979.chunk.css"
   },
   {
-    "revision": "cf6d74ea3da84c962798",
-    "url": "/eli-portfolio/static/css/main.86174eef.chunk.css"
+    "revision": "dc9df9a552fc850d279a",
+    "url": "/eli-portfolio/static/css/main.0c68fe63.chunk.css"
   },
   {
-    "revision": "bae74b57c86c199b8d32",
-    "url": "/eli-portfolio/static/js/2.18fc8391.chunk.js"
+    "revision": "3d0cbc88525b03399b6d",
+    "url": "/eli-portfolio/static/js/2.24499f78.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/eli-portfolio/static/js/2.18fc8391.chunk.js.LICENSE.txt"
+    "url": "/eli-portfolio/static/js/2.24499f78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf6d74ea3da84c962798",
-    "url": "/eli-portfolio/static/js/main.b58b6a43.chunk.js"
+    "revision": "dc9df9a552fc850d279a",
+    "url": "/eli-portfolio/static/js/main.b0e739ca.chunk.js"
   },
   {
     "revision": "e6929e93da56423b9ae2",
@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eli-portfolio/static/media/Stitchpirations_4.3bc88514.png"
   },
   {
+    "revision": "cc38f93070b99c9619305cf66811cf9d",
+    "url": "/eli-portfolio/static/media/about.cc38f930.jpg"
+  },
+  {
     "revision": "c460b4f56023852d8b2349154f6b4160",
     "url": "/eli-portfolio/static/media/elisa.c460b4f5.jpg"
   },
@@ -84,7 +88,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eli-portfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "cc5a1a75853edb33bc3b350c49dc221c",
-    "url": "/eli-portfolio/static/media/home.cc5a1a75.jpg"
+    "revision": "4b1c1fce6f5eff2bdf3a27ae6b809955",
+    "url": "/eli-portfolio/static/media/home.4b1c1fce.jpg"
+  },
+  {
+    "revision": "d73f3f545f650d4056b16601e4496702",
+    "url": "/eli-portfolio/static/media/llama.d73f3f54.jpg"
   }
 ]);
