@@ -5,14 +5,8 @@
   text-decoration: none;
   cursor: pointer;
   font-weight: bold;
-
-
-  background-image: linear-gradient(0, $color-main 0, $color-main);
-  background-position: bottom;
-  background-size: (100% 4px);
-	background-repeat: no-repeat;
-	box-decoration-break: clone;
-	
+  
+  @include underlineText();
 	will-change: background-size;
   transition: background-size .25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   
