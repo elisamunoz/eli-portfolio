@@ -14,12 +14,13 @@
 .item {
   display: flex;
   flex-direction: row;
+  margin: 0 0 12px;
 }
 .itemIcon {
   font-size: .3em;
   color: $pinkDark;
   margin-right: 8px;
-  margin-top: 1.5em;
+  margin-top: 1.4em;
 }
 .itemContent {
 }
