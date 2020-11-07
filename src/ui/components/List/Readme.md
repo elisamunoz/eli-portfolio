@@ -17,5 +17,3 @@
   <List.Item>Item 3</List.Item>
 </List>
 ```
-
-
