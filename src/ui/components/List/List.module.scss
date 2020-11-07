@@ -1,12 +1,25 @@
-.list {
+@import "assets/styles/abstract/index.scss";
 
-  p{
+.wrapper {
+  p {
     margin: 20px 0;
   }
-
-  ul {
-    margin: 0;
-  }
-
 }
 
+.list {
+  margin: 0;
+  padding-left: 16px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+.itemIcon {
+  font-size: .3em;
+  color: $pinkDark;
+  margin-right: 8px;
+  margin-top: 1.5em;
+}
+.itemContent {
+}
