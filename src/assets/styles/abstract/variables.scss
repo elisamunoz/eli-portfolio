@@ -2,6 +2,7 @@ $black: #222;
 $white: #fefefe;
 $white-dark: #bbb;
 $red: red;
+$green: #329232;
 $yellow: #ffe354;
 $blue: #1780C6;
 
@@ -34,6 +35,9 @@ $color-sec: $blue;
 $color-sec-text: $text-black;
 $color-sec-dark: darken($color-sec, 20%);
 $color-sec-darker: darken($color-sec, 40%);
+
+$color-status-success: $green;
+$color-status-error: $red;
 
 /* -------------- */
 /* --- Others --- */
