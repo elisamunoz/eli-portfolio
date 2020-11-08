@@ -8,18 +8,18 @@ import { isProduction, EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, EMAILJS_USER_ID 
 import { useBoolean } from 'hooks/useBoolean';
 
 const useMail = (): any => {
-  const [isSent, setIsSent] = useBoolean(false);
-  const [isLoading, setIsLoading] = useBoolean(false);
+  const [isSent, isSentActions] = useBoolean(false);
+  const [isLoading, isLoadingActions] = useBoolean(false);
 
   const sendMail = (params) => {
-    setIsLoading.setTrue();  
+    isLoadingActions.setTrue();  
 
     if(!isProduction) {
       // When working locally, do not send the mail.
       setTimeout(() => {
         // Mock server delay
-        setIsSent.setTrue();
-        setIsLoading.setFalse();
+        isSentActions.setTrue();
+        isLoadingActions.setFalse();
       }, 2000);
     } else {
       emailjs.send(
@@ -29,10 +29,10 @@ const useMail = (): any => {
         EMAILJS_USER_ID
       )
         .then((result) => {
-          setIsSent.setTrue();
-          setIsLoading.setFalse();
+          isSentActions.setTrue();
+          isLoadingActions.setFalse();
         }, (error) => {
-          setIsLoading.setFalse();
+          isLoadingActions.setFalse();
         });
     }
   }
