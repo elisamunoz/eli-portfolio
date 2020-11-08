@@ -4,8 +4,7 @@ import Section from 'ui/components/Section';
 import Icon from 'ui/components/Icon';
 import styles from './Contact.module.scss';
 import A from 'ui/components/A';
-import Button from 'ui/components/Button';
-import { Form, Field } from 'ui/components/formComponents';
+import ContactForm from './ContactForm';
 import llamaPhoto from 'assets/img/llama.jpg';
 
 const Contact = () => (
@@ -42,26 +41,9 @@ const Contact = () => (
           </A>
         </div>
       </div>
+      
       <div className={styles.form}>
-        <Form onSubmit={(v) => console.log(v)}>
-          <Field
-            name='name'
-            label='Your Name *Form is work in progress'
-            placeholder="e.g. U. Name"
-          />
-          <Field
-            name='email'
-            label='Email'
-            placeholder="e.g. username@example.com"
-          />
-          <Field
-            type='textarea'
-            label='Message'
-            name='message'
-            placeholder="Write a message..."
-          />
-          <Button>Submit</Button>
-        </Form>
+        <ContactForm />
       </div>
     </div>
   </Section>

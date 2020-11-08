@@ -2,6 +2,7 @@ $black: #222;
 $white: #fefefe;
 $white-dark: #bbb;
 $red: red;
+$green: #329232;
 $yellow: #ffe354;
 $blue: #1780C6;
 $pink: #f2cece;
@@ -36,6 +37,10 @@ $color-main-darker: darken($color-main, 40%);
 $color-button: #3a3142;
 $color-button-text: #ffffff;
 $color-border: #f5f5f5;
+
+
+$color-status-success: $green;
+$color-status-error: $red;
 
 /* -------------- */
 /* --- Others --- */
