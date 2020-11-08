@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f890d07f44e40bd36e936a84e4087b84",
+    "revision": "2490b32931db51f5908fd5db51d23fee",
     "url": "/eli-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eli-portfolio/static/css/2.ee804979.chunk.css"
   },
   {
-    "revision": "41bc379337fe27eea040",
+    "revision": "a0a8d1affb707baeb03f",
     "url": "/eli-portfolio/static/css/main.3f466676.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eli-portfolio/static/js/2.42372bdb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "41bc379337fe27eea040",
-    "url": "/eli-portfolio/static/js/main.d79019d3.chunk.js"
+    "revision": "a0a8d1affb707baeb03f",
+    "url": "/eli-portfolio/static/js/main.7bbad9e5.chunk.js"
   },
   {
     "revision": "e6929e93da56423b9ae2",
