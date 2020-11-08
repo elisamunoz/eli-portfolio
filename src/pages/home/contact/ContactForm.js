@@ -6,11 +6,29 @@ import Button from 'ui/components/Button';
 import { Form, Field } from 'ui/components/formComponents';
 
 const Contact = () => {
-  const { isSent, isLoading, actions } = useMail();
+  const { isSent, isLoading, actions: mailActions } = useMail();
 
-  const handleSendMail = (vals) => {
-    actions.send(vals);
+  const isEmail = (email) => {
+    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
   }
+
+  const isValid = (vals = {}) => {
+    const { name, email, message } = vals;
+
+    return (
+      !!name &&
+      !!email &&
+      !!isEmail(email) &&
+      !!message
+    );
+  }
+  const handleSendMail = (vals) => {
+    if(isValid(vals)) {
+      mailActions.send(vals);
+    }
+  }
+
   return !isSent ? (
     <Form onSubmit={handleSendMail}>
       <Field
