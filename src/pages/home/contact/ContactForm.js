@@ -26,7 +26,10 @@ const Contact = () => {
   }
   const handleSendMail = (vals) => {
     if(isValid(vals)) {
+      console.log('sending mail');
       mailActions.send(vals);
+    } else {
+      console.log('ERROR:', vals);
     }
   }
 
