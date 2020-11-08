@@ -27,7 +27,7 @@ const Form = ({ children, className, onSubmit, iniValues = {} }) => {
 };
 
 Form.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.any.isRequired,
   className: PropTypes.string,
   onSubmit: PropTypes.func,
   iniValues: PropTypes.object,

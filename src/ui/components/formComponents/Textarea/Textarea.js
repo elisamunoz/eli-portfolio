@@ -5,7 +5,7 @@ import Wrapper from 'ui/components/formComponents/FieldWrapper';
 import styles from './Textarea.module.scss';
 
 export const Textarea = (props) => {
-  const { name, placeholder } = props;
+  const { name, placeholder, disabled = false  } = props;
 
   return (
     <Wrapper {...props}>
@@ -16,6 +16,7 @@ export const Textarea = (props) => {
             id={name}
             className={styles.textarea}
             placeholder={placeholder}
+            disabled={disabled}
             rows="4"
           />
         )}
@@ -25,8 +26,9 @@ export const Textarea = (props) => {
 };
 
 Textarea.propTypes = {
-  label: PropTypes.string,
   name: PropTypes.string,
+  placeholder: PropTypes.string,
+  disabled: PropTypes.bool,
 };
 
 
