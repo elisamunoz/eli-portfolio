@@ -33,6 +33,6 @@ export const linkTo = {
   homeContact: `${PATHS.HOME}#${HOME_SECTIONS.CONTACT}`,
 };
 
-export const EMAILJS_SERVICE_ID = 'gmail';
-export const EMAILJS_TEMPLATE_ID = 'template_2v9s12t';
-export const EMAILJS_USER_ID = 'user_MKo97gaxfyq2vnV35VE4g';
+export const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+export const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+export const EMAILJS_USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
