@@ -20,7 +20,6 @@ const useMail = (): any => {
         // Mock server delay
         isSentActions.setTrue();
         isLoadingActions.setFalse();
-        console.log('MOCK');
       }, 2000);
     } else {
       emailjs.send(
@@ -32,7 +31,6 @@ const useMail = (): any => {
         .then((result) => {
           isSentActions.setTrue();
           isLoadingActions.setFalse();
-          console.log('ABC');
         }, (error) => {
           isLoadingActions.setFalse();
         });
