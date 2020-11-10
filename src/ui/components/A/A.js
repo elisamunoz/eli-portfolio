@@ -7,9 +7,11 @@ const A = ({
   href,
   className,
   children,
+  target,
 }) => (
   <a onClick={onClick} 
     href={href}
+    target={target}
     className={classnames(styles.A, className)}
   >
     {children}

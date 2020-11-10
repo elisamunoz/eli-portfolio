@@ -8,6 +8,7 @@ const LinkText = ({
   children,
   caption,
   href,
+  target = '_blank',
   className,  
 }) => {
   const content = children || caption;
@@ -15,6 +16,7 @@ const LinkText = ({
   return !!content ? (
     <A
       href={href}
+      target={target}
       className={classnames(styles.link, className)}
     >
       {content}
@@ -26,6 +28,7 @@ LinkText.propTypes = {
   children: PropTypes.any,
   caption: PropTypes.string,
   href: PropTypes.string.isRequired,
+  target: PropTypes.string,
   className: PropTypes.string,
 };
 
