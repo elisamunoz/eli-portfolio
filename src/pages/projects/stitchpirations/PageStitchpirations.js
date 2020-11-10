@@ -45,8 +45,8 @@ const Page = () => (
 
       <List title='Deployment:'>
         <List.Item>This website is hosted and deployed using GitHub pages.</List.Item>
-        <List.Item>Link to the GitHub repository <A href='https://github.com/elisamunoz/docu-llamas'>here</A></List.Item>
-        <List.Item>Link to the live demo <A href='https://docu-llama.herokuapp.com/'>here</A></List.Item>
+        <List.Item>Link to the GitHub repository <A target='_blank' href='https://github.com/elisamunoz/docu-llamas'>here</A></List.Item>
+        <List.Item>Link to the live demo <A target='_blank' href='https://docu-llama.herokuapp.com/'>here</A></List.Item>
         <List.Item>MongoDB: to host patterns information.</List.Item>
       </List>
     </Article>

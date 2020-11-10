@@ -50,8 +50,8 @@ const Page = () => (
 
         <List title='Hosting'>
         <List.Item>S3 Buckets from AWS: to host images and static files including CSS and Javascript</List.Item>
-        <List.Item>Github: for version control of project code. Link to the repository <A href='https://github.com/elisamunoz/cactus-shop'>here</A></List.Item>
-        <List.Item>Heroku: to host the live view of this project. Link to the live demo <A href='http://catcus-shop.herokuapp.com/'>here</A></List.Item>
+        <List.Item>Github: for version control of project code. Link to the repository <A target='_blank' href='https://github.com/elisamunoz/cactus-shop'>here</A></List.Item>
+        <List.Item>Heroku: to host the live view of this project. Link to the live demo <A target='_blank' href='http://catcus-shop.herokuapp.com/'>here</A></List.Item>
       </List>
     </Article>
   </Section>
