@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from 'ui/components/Article';
 import Section from 'ui/components/Section';
-import A from 'ui/components/A';
+import LinkText from 'ui/components/LinkText';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Stitchpirations_4.png';
 
@@ -45,8 +45,8 @@ const Page = () => (
 
       <List title='Deployment:'>
         <List.Item>This website is hosted and deployed using GitHub pages.</List.Item>
-        <List.Item>Link to the GitHub repository <A target='_blank' href='https://github.com/elisamunoz/docu-llamas'>here</A></List.Item>
-        <List.Item>Link to the live demo <A target='_blank' href='https://docu-llama.herokuapp.com/'>here</A></List.Item>
+        <List.Item>Link to the GitHub repository <LinkText href='https://github.com/elisamunoz/docu-llamas'>here</LinkText></List.Item>
+        <List.Item>Link to the live demo <LinkText href='https://docu-llama.herokuapp.com/'>here</LinkText></List.Item>
         <List.Item>MongoDB: to host patterns information.</List.Item>
       </List>
     </Article>

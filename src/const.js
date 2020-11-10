@@ -1,4 +1,4 @@
-const isProduction = process.env.NODE_ENV === 'production';
+export const isProduction = process.env.NODE_ENV === 'production';
 
 const BASE_PATH = !isProduction
   ? '/'
@@ -32,3 +32,7 @@ export const linkTo = {
   homeAbout: `${PATHS.HOME}#${HOME_SECTIONS.ABOUT}`,
   homeContact: `${PATHS.HOME}#${HOME_SECTIONS.CONTACT}`,
 };
+
+export const EMAILJS_SERVICE_ID = 'gmail';
+export const EMAILJS_TEMPLATE_ID = 'template_2v9s12t';
+export const EMAILJS_USER_ID = 'user_MKo97gaxfyq2vnV35VE4g';

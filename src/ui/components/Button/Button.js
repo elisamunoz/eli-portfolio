@@ -13,6 +13,7 @@ const Button = ({
 }) => (
   <button
     onClick={onClick}
+    disabled={disabled}
     className={classnames(
       styles.btn,
       disabled && styles.btn_disabled,

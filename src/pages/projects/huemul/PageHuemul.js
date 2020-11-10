@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from 'ui/components/Section';
 import Article from 'ui/components/Article';
-import A from 'ui/components/A';
+import LinkText from 'ui/components/LinkText';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Huemul_4.png';
 
@@ -31,6 +31,8 @@ const Page = () => (
         <ListItem>This website is hosted and deployed using GitHub pages.</ListItem>
         <ListItem>Link to the GitHub repository <A target='_blank' href='https://github.com/elisamunoz/the-huemul-organization'>here</A></ListItem>
         <ListItem>Link to the live demo <A target='_blank' href='https://elisamunoz.github.io/the-huemul-organization/'>here</A></ListItem>
+        <ListItem>Link to the GitHub repository <LinkText href='https://github.com/elisamunoz/the-huemul-organization'>here</LinkText></ListItem>
+        <ListItem>Link to the live demo <LinkText href='https://elisamunoz.github.io/the-huemul-organization/'>here</LinkText></ListItem>
       </List>
     </Article>
   </Section>

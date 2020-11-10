@@ -8,9 +8,9 @@ const List = ({
   className,
   title,
 }) => (
-  <div className={classnames(styles.list, className)}>
+  <div className={classnames(styles.wrapper, className)}>
     {title && <p>{title}</p>}
-    <ul>
+    <ul className={styles.list}>
       {children}
     </ul>
   </div>
