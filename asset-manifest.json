@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/eli-portfolio/static/css/main.dc66a183.chunk.css",
-    "main.js": "/eli-portfolio/static/js/main.8529e488.chunk.js",
-    "main.js.map": "/eli-portfolio/static/js/main.8529e488.chunk.js.map",
+    "main.css": "/eli-portfolio/static/css/main.d31ba85b.chunk.css",
+    "main.js": "/eli-portfolio/static/js/main.29a0cabe.chunk.js",
+    "main.js.map": "/eli-portfolio/static/js/main.29a0cabe.chunk.js.map",
     "runtime-main.js": "/eli-portfolio/static/js/runtime-main.4bb20de5.js",
     "runtime-main.js.map": "/eli-portfolio/static/js/runtime-main.4bb20de5.js.map",
     "static/css/2.ee804979.chunk.css": "/eli-portfolio/static/css/2.ee804979.chunk.css",
-    "static/js/2.1b52b4b1.chunk.js": "/eli-portfolio/static/js/2.1b52b4b1.chunk.js",
-    "static/js/2.1b52b4b1.chunk.js.map": "/eli-portfolio/static/js/2.1b52b4b1.chunk.js.map",
+    "static/js/2.9cebcb5d.chunk.js": "/eli-portfolio/static/js/2.9cebcb5d.chunk.js",
+    "static/js/2.9cebcb5d.chunk.js.map": "/eli-portfolio/static/js/2.9cebcb5d.chunk.js.map",
     "index.html": "/eli-portfolio/index.html",
-    "precache-manifest.3a9bdbea2d69648a8c7175d04cb14577.js": "/eli-portfolio/precache-manifest.3a9bdbea2d69648a8c7175d04cb14577.js",
+    "precache-manifest.8b7120319b248385dbec709668d21d55.js": "/eli-portfolio/precache-manifest.8b7120319b248385dbec709668d21d55.js",
     "service-worker.js": "/eli-portfolio/service-worker.js",
     "static/css/2.ee804979.chunk.css.map": "/eli-portfolio/static/css/2.ee804979.chunk.css.map",
-    "static/css/main.dc66a183.chunk.css.map": "/eli-portfolio/static/css/main.dc66a183.chunk.css.map",
-    "static/js/2.1b52b4b1.chunk.js.LICENSE.txt": "/eli-portfolio/static/js/2.1b52b4b1.chunk.js.LICENSE.txt",
+    "static/css/main.d31ba85b.chunk.css.map": "/eli-portfolio/static/css/main.d31ba85b.chunk.css.map",
+    "static/js/2.9cebcb5d.chunk.js.LICENSE.txt": "/eli-portfolio/static/js/2.9cebcb5d.chunk.js.LICENSE.txt",
     "static/media/Birdsongs_1.png": "/eli-portfolio/static/media/Birdsongs_1.e41e5a3b.png",
     "static/media/Birdsongs_4.png": "/eli-portfolio/static/media/Birdsongs_4.1fccee7e.png",
     "static/media/Catcus_1.png": "/eli-portfolio/static/media/Catcus_1.e985ad58.png",
     "static/media/Catcus_4.png": "/eli-portfolio/static/media/Catcus_4.f94615f0.png",
+    "static/media/ElisaCV.pdf": "/eli-portfolio/static/media/ElisaCV.e9ff80ff.pdf",
     "static/media/Huemul_1.png": "/eli-portfolio/static/media/Huemul_1.ca3ea8fa.png",
     "static/media/Huemul_4.png": "/eli-portfolio/static/media/Huemul_4.bcd6e4ff.png",
     "static/media/Stitchpirations_1.png": "/eli-portfolio/static/media/Stitchpirations_1.cbf05006.png",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.4bb20de5.js",
     "static/css/2.ee804979.chunk.css",
-    "static/js/2.1b52b4b1.chunk.js",
-    "static/css/main.dc66a183.chunk.css",
-    "static/js/main.8529e488.chunk.js"
+    "static/js/2.9cebcb5d.chunk.js",
+    "static/css/main.d31ba85b.chunk.css",
+    "static/js/main.29a0cabe.chunk.js"
   ]
 }

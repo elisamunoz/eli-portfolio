@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "678f3634734538c93f4ea46bd6c50219",
+    "revision": "9afe54449a6ddbe7f9c6cb2435551a2b",
     "url": "/eli-portfolio/index.html"
   },
   {
-    "revision": "92f013bf6aa3ee55a944",
+    "revision": "f176c50ad7c9a3efb318",
     "url": "/eli-portfolio/static/css/2.ee804979.chunk.css"
   },
   {
-    "revision": "a994cfefbc158b54bab9",
-    "url": "/eli-portfolio/static/css/main.dc66a183.chunk.css"
+    "revision": "05c8d2c530a54268cc13",
+    "url": "/eli-portfolio/static/css/main.d31ba85b.chunk.css"
   },
   {
-    "revision": "92f013bf6aa3ee55a944",
-    "url": "/eli-portfolio/static/js/2.1b52b4b1.chunk.js"
+    "revision": "f176c50ad7c9a3efb318",
+    "url": "/eli-portfolio/static/js/2.9cebcb5d.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/eli-portfolio/static/js/2.1b52b4b1.chunk.js.LICENSE.txt"
+    "url": "/eli-portfolio/static/js/2.9cebcb5d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a994cfefbc158b54bab9",
-    "url": "/eli-portfolio/static/js/main.8529e488.chunk.js"
+    "revision": "05c8d2c530a54268cc13",
+    "url": "/eli-portfolio/static/js/main.29a0cabe.chunk.js"
   },
   {
     "revision": "e6929e93da56423b9ae2",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f94615f07c1d07242736cfeba7581deb",
     "url": "/eli-portfolio/static/media/Catcus_4.f94615f0.png"
+  },
+  {
+    "revision": "e9ff80fff9595f4e4b6531d31a5d954b",
+    "url": "/eli-portfolio/static/media/ElisaCV.e9ff80ff.pdf"
   },
   {
     "revision": "ca3ea8fa9f5c1d60952e14e7b6dc005d",
