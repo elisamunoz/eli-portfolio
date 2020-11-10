@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/eli-portfolio/static/css/main.77b4e8de.chunk.css",
-    "main.js": "/eli-portfolio/build/main.dbfee165.js",
+    "main.css": "/eli-portfolio/static/css/main.fec26918.chunk.css",
+    "main.js": "/eli-portfolio/build/main.91ce251b.js",
     "runtime-main.js": "/eli-portfolio/build/bundle.a0a319cd.js",
     "static/css/2.70fd594c.chunk.css": "/eli-portfolio/static/css/2.70fd594c.chunk.css",
-    "build/2.e98b733d.js": "/eli-portfolio/build/2.e98b733d.js",
-    "build/2.e98b733d.js.LICENSE.txt": "/eli-portfolio/build/2.e98b733d.js.LICENSE.txt",
+    "build/2.67a07ac3.js": "/eli-portfolio/build/2.67a07ac3.js",
+    "build/2.67a07ac3.js.LICENSE.txt": "/eli-portfolio/build/2.67a07ac3.js.LICENSE.txt",
     "index.html": "/eli-portfolio/index.html",
-    "precache-manifest.9299cb5464f450b7b7c863d3eeb26716.js": "/eli-portfolio/precache-manifest.9299cb5464f450b7b7c863d3eeb26716.js",
+    "precache-manifest.b0d2c4e8f52e34d62be909efe9f372b3.js": "/eli-portfolio/precache-manifest.b0d2c4e8f52e34d62be909efe9f372b3.js",
     "service-worker.js": "/eli-portfolio/service-worker.js",
     "static/css/2.70fd594c.chunk.css.map": "/eli-portfolio/static/css/2.70fd594c.chunk.css.map",
-    "static/css/main.77b4e8de.chunk.css.map": "/eli-portfolio/static/css/main.77b4e8de.chunk.css.map",
+    "static/css/main.fec26918.chunk.css.map": "/eli-portfolio/static/css/main.fec26918.chunk.css.map",
     "static/media/demo.jpg": "/eli-portfolio/static/media/demo.917976f6.jpg",
     "static/media/font-awesome.min.css": "/eli-portfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
     "build/bundle.a0a319cd.js",
     "static/css/2.70fd594c.chunk.css",
-    "build/2.e98b733d.js",
-    "static/css/main.77b4e8de.chunk.css",
-    "build/main.dbfee165.js"
+    "build/2.67a07ac3.js",
+    "static/css/main.fec26918.chunk.css",
+    "build/main.91ce251b.js"
   ]
 }
