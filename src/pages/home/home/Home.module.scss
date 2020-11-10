@@ -16,3 +16,8 @@
     font-size: 1.2em;
   }
 }
+
+.txtImportant {
+  display: inline;
+  @include underlineText();
+}

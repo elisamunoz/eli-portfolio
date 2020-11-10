@@ -1,0 +1,16 @@
+@import "assets/styles/abstract/index.scss";
+
+.link {
+  color: $color-sec;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  
+  @include underlineText();
+	will-change: background-size;
+  transition: background-size .25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  
+  &:hover {
+    background-size: (100% 100%);
+  }
+}

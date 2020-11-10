@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from 'ui/components/Section';
 import Article from 'ui/components/Article';
-import A from 'ui/components/A';
+import LinkText from 'ui/components/LinkText';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Catcus_4.png'
 // import styles from './PageCatcus.module.scss';
@@ -50,8 +50,8 @@ const Page = () => (
 
         <List title='Hosting'>
         <List.Item>S3 Buckets from AWS: to host images and static files including CSS and Javascript</List.Item>
-        <List.Item>Github: for version control of project code. Link to the repository <A href='https://github.com/elisamunoz/cactus-shop'>here</A></List.Item>
-        <List.Item>Heroku: to host the live view of this project. Link to the live demo <A href='http://catcus-shop.herokuapp.com/'>here</A></List.Item>
+        <List.Item>Github: for version control of project code. Link to the repository <LinkText href='https://github.com/elisamunoz/cactus-shop'>here</LinkText></List.Item>
+        <List.Item>Heroku: to host the live view of this project. Link to the live demo <LinkText href='http://catcus-shop.herokuapp.com/'>here</LinkText></List.Item>
       </List>
     </Article>
   </Section>

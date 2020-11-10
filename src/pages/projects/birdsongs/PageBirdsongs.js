@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from 'ui/components/Section';
 import Article from 'ui/components/Article';
-import A from 'ui/components/A';
+import LinkText from 'ui/components/LinkText';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Birdsongs_4.png'
 // import styles from './PageBirdsongs.module.scss';
@@ -18,7 +18,7 @@ const Page = () => (
         <br />
         It connects to a third party API to obtain birdsong and geolocate some of the information using Google Maps.
         <br />
-        This website has been possible thanks to the <A href="https://www.xeno-canto.org/article/153">Xeno-Canto Api</A>.
+        This website has been possible thanks to the <LinkText href="https://www.xeno-canto.org/article/153" caption="Xeno-Canto Api" />.
       </p>
     
     
@@ -39,8 +39,8 @@ const Page = () => (
 
       <List title='Deployment:'>
         <ListItem>This website is hosted and deployed using GitHub pages.</ListItem>
-        <List.Item>Link to the GitHub repository <A href='https://github.com/elisamunoz/birdsongs-project'>here</A></List.Item>
-        <List.Item>Link to the live demo <A href='https://elisamunoz.github.io/birdsongs-project/'>here</A></List.Item>
+        <List.Item>Link to the GitHub repository <LinkText href='https://github.com/elisamunoz/birdsongs-project' caption="here" /></List.Item>
+        <List.Item>Link to the live demo <LinkText href='https://elisamunoz.github.io/birdsongs-project/' caption="here" /></List.Item>
       </List>
     </Article>
   </Section>
