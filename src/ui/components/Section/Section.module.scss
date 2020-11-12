@@ -26,6 +26,8 @@
   font-size: 2.3em;
   color: $color-title-text;
   padding-bottom: 30px;
+  font-family: $font-family-title;
+  letter-spacing: 5px;
 
   @media (min-width: $breakpoint-desktop) {
     font-size: 3.5em;
