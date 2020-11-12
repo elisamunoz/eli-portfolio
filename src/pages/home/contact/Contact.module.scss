@@ -37,8 +37,13 @@
 }
 
 .contactIcon {
+  color: $color-button;
   font-size: 2em;
   padding: 0 5px;
+
+  &:hover {
+    color: $color-main-dark;
+  }
 }
 
 .form {
