@@ -52,7 +52,7 @@ const Contact = () => {
         placeholder="Write a message..."
         disabled={isLoading}
       />
-      <Button disabled={isLoading}>Submit</Button>
+      <Button className={styles.btn} disabled={isLoading}>Submit</Button>
     </Form>
   ) : (
     <div className={styles.confirmation}>
