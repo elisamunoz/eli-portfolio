@@ -44,6 +44,7 @@ const Portfolio = () => {
           desc='Catcus is an online plant store, we have something for everyone.'
         />
       </Card.Group>
+      <div className={styles.llama} />
     </Section>
   )
 };

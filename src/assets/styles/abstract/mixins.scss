@@ -25,12 +25,12 @@
   border-radius: $border-radius;
   box-sizing: border-box;
   outline: none;
-  border: 1px solid pink;
+  border: 1px solid $color-sec-lighter;
   padding: 8px;
 
   @include placeholder {
     font-style: italic;
-    color: grey;
+    color: $color-secondary-text;
     font-weight: 100;
   }
 }
@@ -50,9 +50,9 @@
   align-self: center;
 }
 
-@mixin underlineText(
+@mixin underlineText (
   $color: $color-main,
-  $h: 4px,
+  $h: 4px
 ) {
   background-image: linear-gradient(0, $color 0, $color);
   background-position: bottom;

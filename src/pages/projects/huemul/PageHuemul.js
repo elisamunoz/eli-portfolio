@@ -1,5 +1,4 @@
 import React from 'react';
-import A from 'ui/components/A';
 import Section from 'ui/components/Section';
 import Article from 'ui/components/Article';
 import LinkText from 'ui/components/LinkText';

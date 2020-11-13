@@ -3,3 +3,15 @@
 .portfolio {
   background: #fff0f0;
 }
+
+.llama {
+  @include bg-cover();
+
+  position: absolute;
+  font-size: 100px;
+  width: 1em;
+  height: 1em;
+  bottom: 0;
+  left: 0;
+  background-image: url('./llama.gif'); 
+}
