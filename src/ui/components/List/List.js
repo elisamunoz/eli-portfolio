@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import ListItem from './ListItem';
 import styles from './List.module.scss';
@@ -17,5 +18,11 @@ const List = ({
 );
 
 List.Item = ListItem;
+
+List.propTypes = {
+  children: PropTypes.any,
+  className: PropTypes.string,
+  title: PropTypes.string,
+}
 
 export default List;

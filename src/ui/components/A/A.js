@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import styles from './A.module.scss';
 
@@ -17,5 +18,13 @@ const A = ({
     {children}
   </a>
 );
+
+A.propTypes = {
+  onCLick: PropTypes.func,
+  href: PropTypes.string.isRequired,
+  className: PropTypes.string,
+  children: PropTypes.any,
+  target: PropTypes.string,
+};
 
 export default A;

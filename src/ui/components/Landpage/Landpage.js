@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import styles from './Landpage.module.scss';
 
@@ -34,5 +35,15 @@ const Landpage = ({
     </div>
   </section>
 );
+
+Landpage.propTypes = {
+  id: PropTypes.string,
+  className: PropTypes.string,
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  img: PropTypes.string,
+  children: PropTypes.any,
+  imgSection: PropTypes.string,
+}
 
 export default Landpage;
