@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import styles from './Section.module.scss';
 
@@ -31,5 +32,15 @@ const Section = ({
     </div>
   </section>
 );
+
+Section.propTypes = {
+  id: PropTypes.string,
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  children: PropTypes.any,
+  className: PropTypes.string,
+  img: PropTypes.string,
+  backgroundContent: PropTypes.string,
+}
 
 export default Section;

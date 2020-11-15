@@ -1,5 +1,9 @@
 @import 'assets/styles/abstract/index.scss';
 
+.contact {
+  background-size: contain;
+}
+
 .contactContent{
   display: flex;
   flex-direction: column;

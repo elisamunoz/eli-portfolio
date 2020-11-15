@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { linkTo } from 'const';
@@ -40,5 +41,16 @@ const Sidebar = ({ onClose, isOpen }) => (
     </div>
   </nav>
 );
+
+Link.propType = {
+  label: PropTypes.any,
+  href: PropTypes.string,
+  onClick: PropTypes.func,
+}
+
+Link.propType = {
+  onClose: PropTypes.func,
+  isOpen: PropTypes.func,
+}
 
 export default Sidebar;
