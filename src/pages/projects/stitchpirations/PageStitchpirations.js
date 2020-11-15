@@ -1,12 +1,12 @@
 import React from 'react';
+import View from 'pages/projects/ProjectDetailView';
 import Article from 'ui/components/Article';
-import Section from 'ui/components/Section';
 import LinkText from 'ui/components/LinkText';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Stitchpirations_4.png';
 
 const Page = () => (
-  <Section
+  <View
     title='Stitchpirations'
   >
     <Article
@@ -50,7 +50,7 @@ const Page = () => (
         <List.Item>MongoDB: to host patterns information.</List.Item>
       </List>
     </Article>
-  </Section>
+  </View>
 );
 
 export default Page;
