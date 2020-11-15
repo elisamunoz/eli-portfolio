@@ -1,5 +1,5 @@
 import React from 'react';
-import Section from 'ui/components/Section';
+import View from 'pages/projects/ProjectDetailView';
 import Article from 'ui/components/Article';
 import LinkText from 'ui/components/LinkText';
 import { List, ListItem } from 'ui/components/List';
@@ -7,7 +7,7 @@ import Pic4 from 'assets/img/portfolio/Catcus_4.png'
 // import styles from './PageCatcus.module.scss';
 
 const Page = () => (
-  <Section
+  <View
     title='Catcus'
   >
     <Article
@@ -54,7 +54,7 @@ const Page = () => (
         <List.Item>Heroku: to host the live view of this project. Link to the live demo <LinkText href='http://catcus-shop.herokuapp.com/'>here</LinkText></List.Item>
       </List>
     </Article>
-  </Section>
+  </View>
 );
 
 export default Page;
