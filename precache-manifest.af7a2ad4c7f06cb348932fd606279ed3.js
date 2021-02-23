@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88460b0bc3bf0c3af1580f6d2e337a6c",
+    "revision": "7c8ffb743c4a5ba1e060ed5e53bbd03d",
     "url": "/eli-portfolio/index.html"
   },
   {
-    "revision": "12a9d3dbf481db93c777",
+    "revision": "038f6c6e157f4868a951",
     "url": "/eli-portfolio/static/css/2.ee804979.chunk.css"
   },
   {
-    "revision": "befb7dfb76b2bc9e76f0",
+    "revision": "597100b6ad833ba407c4",
     "url": "/eli-portfolio/static/css/main.64143905.chunk.css"
   },
   {
-    "revision": "12a9d3dbf481db93c777",
-    "url": "/eli-portfolio/static/js/2.4be84c67.chunk.js"
+    "revision": "038f6c6e157f4868a951",
+    "url": "/eli-portfolio/static/js/2.e4588414.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/eli-portfolio/static/js/2.4be84c67.chunk.js.LICENSE.txt"
+    "url": "/eli-portfolio/static/js/2.e4588414.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "befb7dfb76b2bc9e76f0",
-    "url": "/eli-portfolio/static/js/main.d63edfac.chunk.js"
+    "revision": "597100b6ad833ba407c4",
+    "url": "/eli-portfolio/static/js/main.4214be73.chunk.js"
   },
   {
     "revision": "e6929e93da56423b9ae2",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eli-portfolio/static/media/Catcus_4.f94615f0.png"
   },
   {
+    "revision": "528af4a3100ce4c9c14a89485051ed1a",
+    "url": "/eli-portfolio/static/media/CuachCuach_1.528af4a3.png"
+  },
+  {
     "revision": "e9ff80fff9595f4e4b6531d31a5d954b",
     "url": "/eli-portfolio/static/media/ElisaCV.e9ff80ff.pdf"
   },
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bcd6e4ffc2115085659a8295b808b4ff",
     "url": "/eli-portfolio/static/media/Huemul_4.bcd6e4ff.png"
+  },
+  {
+    "revision": "52a3499281ac7c3cb07d9c80cf905d26",
+    "url": "/eli-portfolio/static/media/Portfolio_1.52a34992.png"
   },
   {
     "revision": "cbf050068fdbad76f8ad6caf43b5f969",
