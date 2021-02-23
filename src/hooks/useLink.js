@@ -11,6 +11,8 @@ const useLink = (iniValue = false): any => {
     projectBirdsongs: useCallback(() => history.push(PATHS.PROJECTS_BIRDSONGS), [history]),
     projectStichpirations: useCallback(() => history.push(PATHS.PROJECTS_STITCHPIRATIONS), [history]),
     projectCatcus: useCallback(() => history.push(PATHS.PROJECTS_CATCUS), [history]),
+    projectPortfolio: useCallback(() => history.push(PATHS.PROJECTS_PORTFOLIO), [history]),
+    projectCuachCuach: useCallback(() => history.push(PATHS.PROJECTS_CuachCuach), [history]),
   }
 
   return useMemo(() =>
