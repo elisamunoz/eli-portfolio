@@ -1,13 +1,12 @@
 import React from 'react';
-import A from 'ui/components/A';
-import Section from 'ui/components/Section';
+import View from 'pages/projects/ProjectDetailView';
 import Article from 'ui/components/Article';
 import LinkText from 'ui/components/LinkText';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Huemul_4.png';
 
 const Page = () => (
-  <Section
+  <View
     title='The Huemul Organization'
   >
     <Article
@@ -34,7 +33,7 @@ const Page = () => (
         <ListItem>Link to the live demo <LinkText href='https://elisamunoz.github.io/the-huemul-organization/'>here</LinkText></ListItem>
       </List>
     </Article>
-  </Section>
+  </View>
 );
 
 export default Page;

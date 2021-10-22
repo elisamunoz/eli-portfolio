@@ -1,6 +1,15 @@
+const path = require('path');
+
 module.exports = {
   styleguideDir: 'build/styleguide',
   skipComponentsWithoutExample: true,
+  getComponentPathLine(componentPath) {
+    const dir = path.dirname(componentPath);
+    const dirArray = dir.split("/");
+    const name = dirArray[dirArray.length -1];
+
+    return `import { ${name} } from '${dir.replace('src/', '')}';`
+  },
   sections: [
     {
       name: 'Documentation',
@@ -18,7 +27,7 @@ module.exports = {
     },
     {
       name: 'UI Components',
-      components: 'src/ui/components/*/[A-Z]*.js',
+      components: 'src/ui/components/*/index.js',
       exampleMode: 'collapse', // 'hide' | 'collapse' | 'expand'
       usageMode: 'expand', // 'hide' | 'collapse' | 'expand'
     },

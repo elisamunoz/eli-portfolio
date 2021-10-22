@@ -9,33 +9,31 @@ $pink: #f2cece;
 $pinkDark: #d9415d;
 
 $text-white: $white;
-$text-black: $black;
+$text-black: #31383f;
 
 /* -------------- */
 /* --- Colors --- */
 /* -------------- */
 $color-main: $yellow;
+$color-main-text: $text-black;
+$color-main-dark: darken($color-main, 20%);
+$color-main-darker: darken($color-main, 40%);
+
 $color-secondary: #fbf6f0;
+$color-secondary-text: #757575;
 
 $color-sec: $pinkDark;
 $color-sec-text: $text-black;
 $color-sec-dark: darken($color-sec, 20%);
 $color-sec-darker: darken($color-sec, 40%);
+$color-sec-lighter: lighten($color-sec, 30%);
 
-
-$color-main-text: #31383f;
 $color-title-text: $color-sec;
-$color-secondary-text: #757575;
 $color-background-one: #fafafa;
-// $color-background-one: $pink;
 
 
-$color-main-dark: darken($color-main, 20%);
-$color-main-darker: darken($color-main, 40%);
-
-// $color-button: #febeb0;
 $color-button: #3a3142;
-$color-button-text: #ffffff;
+$color-button-text: $text-white;
 $color-border: #f5f5f5;
 
 
@@ -65,6 +63,13 @@ $avatar-size: 150px;
 $avatar-picture-padding: 25px;
 $sidebar-line-heigth: 35px;
 
+/* --------------------- */
+/* --- Font Families --- */
+/* --------------------- */
+
+$font-family-main: 'Lato', sans-serif;
+$font-family-title: 'Aleo', serif;
+
 
 
 /* --------------------- */
@@ -72,4 +77,4 @@ $sidebar-line-heigth: 35px;
 /* --------------------- */
 
 $breakpoint-tablet: 768px;
-$breakpoint-desktop: 1024px;;
+$breakpoint-desktop: 1024px;

@@ -8,6 +8,8 @@ import huemulPhoto from 'assets/img/portfolio/Huemul_1.png';
 import birdsongsPhoto from 'assets/img/portfolio/Birdsongs_1.png';
 import stitchsPhoto from 'assets/img/portfolio/Stitchpirations_1.png';
 import catcusPhoto from 'assets/img/portfolio/Catcus_1.png';
+import portfolioPhoto from 'assets/img/portfolio/Portfolio_1.png';
+import cuachCuachPhoto from 'assets/img/portfolio/CuachCuach_1.png';
 
 const Portfolio = () => {
   const [goTo] = useLink();
@@ -43,7 +45,20 @@ const Portfolio = () => {
           title='Catcus'
           desc='Catcus is an online plant store, we have something for everyone.'
         />
+        <Card
+          image={portfolioPhoto}
+          onClickMore={goTo.projectPortfolio}
+          title='Portfolio'
+          desc='This is my portfolio. Where I will be posting the projects I will be working on.'
+        />
+        <Card
+          image={cuachCuachPhoto}
+          onClickMore={goTo.projectCuachCuach}
+          title='Cuach Cuach (Work in progress)'
+          desc='Cuach Cuach is a small workshop, they do art, architecture and sewing. They trusted me to do their website.'
+        />
       </Card.Group>
+      <div className={styles.llama} />
     </Section>
   )
 };

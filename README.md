@@ -1,12 +1,13 @@
-![CI/CD](https://github.com/elisamunoz/eli-portfolio/workflows/CI/CD/badge.svg)
-![License](https://img.shields.io/github/license/elisamunoz/eli-portfolio)
-
 # eli-portfolio
+
+Hi! This is my portfolio, here I will post all the projects I'll be working on.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
 ## Links
-[Site](https://elisamunoz.github.io/eli-portfolio)
-[Styleguide](https://elisamunoz.github.io/eli-portfolio/styleguide/)
+* Link to the live demo [here](https://elisamunoz.github.io/eli-portfolio)
+* Link to the documentation using Styleguide [here](https://elisamunoz.github.io/eli-portfolio/styleguide/)
 
 ## Available Scripts
 

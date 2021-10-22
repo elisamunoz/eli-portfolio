@@ -3,11 +3,13 @@
 .section {
   margin: auto;
   background: $color-background-one;
+  background-size: cover;
 }
 
 .container {
   height: 100%;
   padding: 100px 0;
+  position: relative;
 
   @include vertical-align;
 }
@@ -16,16 +18,15 @@
   margin: auto;
   width: 80%;
   max-width: 1500px;
-
-  // @media (min-width: $breakpoint-desktop) {
-  //   width: 100%;
-  // }
 }
 
 .title {
   font-size: 2.3em;
   color: $color-title-text;
   padding-bottom: 30px;
+  font-family: $font-family-title;
+  letter-spacing: 5px;
+  text-align: center;
 
   @media (min-width: $breakpoint-desktop) {
     font-size: 3.5em;
@@ -37,4 +38,5 @@
   font-size: 1.2em;
   max-width: 800px;
   margin: auto;
+  text-align: center;
 }

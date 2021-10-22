@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import styles from './Article.module.scss';
 
@@ -20,5 +21,11 @@ const Article = ({
   </div>
 
 );
+
+Article.propTypes = {
+  children: PropTypes.any,
+  className: PropTypes.string,
+  img: PropTypes.string,
+}
 
 export default Article; 

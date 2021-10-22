@@ -30,6 +30,7 @@ const Button = ({
 Button.propTypes = {
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
+  onClick: PropTypes.func,
   disabled: PropTypes.bool,
   iconName: PropTypes.string,
 };
