@@ -19,7 +19,7 @@ const Home = () => (
     )}
     subtitle={(
       <>
-        I’m a <div className={styles.txtImportant}>Junior Software Developer</div> looking for my first job in IT.
+        I’m a <div className={styles.txtImportant}>Junior Software Developer</div> looking for a new challenge.
       </>
     )}
     img={homeImg}

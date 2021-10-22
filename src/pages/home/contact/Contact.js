@@ -22,8 +22,8 @@ const Contact = () => (
           Get in touch with me!
         </h4>
         <p className={styles.infoTxt}>
-            Sandyford, Dublin18,<br />
-            Ireland<br />
+            Barcelona,<br />
+            Spain<br />
             elisamunozes@gmail.com
         </p>
         <div className={styles.socialMedia}>
