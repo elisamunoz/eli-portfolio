@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/eli-portfolio/static/css/main.dc3dac1d.chunk.css",
-    "main.js": "/eli-portfolio/static/js/main.c64a4542.chunk.js",
-    "main.js.map": "/eli-portfolio/static/js/main.c64a4542.chunk.js.map",
+    "main.js": "/eli-portfolio/static/js/main.3564fa55.chunk.js",
+    "main.js.map": "/eli-portfolio/static/js/main.3564fa55.chunk.js.map",
     "runtime-main.js": "/eli-portfolio/static/js/runtime-main.4bb20de5.js",
     "runtime-main.js.map": "/eli-portfolio/static/js/runtime-main.4bb20de5.js.map",
     "static/css/2.ee804979.chunk.css": "/eli-portfolio/static/css/2.ee804979.chunk.css",
     "static/js/2.4e22099f.chunk.js": "/eli-portfolio/static/js/2.4e22099f.chunk.js",
     "static/js/2.4e22099f.chunk.js.map": "/eli-portfolio/static/js/2.4e22099f.chunk.js.map",
     "index.html": "/eli-portfolio/index.html",
-    "precache-manifest.284f58cb1ac716bdcc47540fc5d27415.js": "/eli-portfolio/precache-manifest.284f58cb1ac716bdcc47540fc5d27415.js",
+    "precache-manifest.342bc38294097231f88919a0eaee00af.js": "/eli-portfolio/precache-manifest.342bc38294097231f88919a0eaee00af.js",
     "service-worker.js": "/eli-portfolio/service-worker.js",
     "static/css/2.ee804979.chunk.css.map": "/eli-portfolio/static/css/2.ee804979.chunk.css.map",
     "static/css/main.dc3dac1d.chunk.css.map": "/eli-portfolio/static/css/main.dc3dac1d.chunk.css.map",
@@ -19,7 +19,7 @@
     "static/media/Catcus_1.png": "/eli-portfolio/static/media/Catcus_1.e985ad58.png",
     "static/media/Catcus_4.png": "/eli-portfolio/static/media/Catcus_4.f94615f0.png",
     "static/media/CuachCuach_1.png": "/eli-portfolio/static/media/CuachCuach_1.528af4a3.png",
-    "static/media/ElisaCV.pdf": "/eli-portfolio/static/media/ElisaCV.e9ff80ff.pdf",
+    "static/media/ElisaCV.pdf": "/eli-portfolio/static/media/ElisaCV.bdd4a2db.pdf",
     "static/media/Huemul_1.png": "/eli-portfolio/static/media/Huemul_1.ca3ea8fa.png",
     "static/media/Huemul_4.png": "/eli-portfolio/static/media/Huemul_4.bcd6e4ff.png",
     "static/media/Portfolio_1.png": "/eli-portfolio/static/media/Portfolio_1.52a34992.png",
@@ -37,6 +37,6 @@
     "static/css/2.ee804979.chunk.css",
     "static/js/2.4e22099f.chunk.js",
     "static/css/main.dc3dac1d.chunk.css",
-    "static/js/main.c64a4542.chunk.js"
+    "static/js/main.3564fa55.chunk.js"
   ]
 }
