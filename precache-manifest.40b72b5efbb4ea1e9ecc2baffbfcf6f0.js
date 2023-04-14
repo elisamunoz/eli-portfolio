@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e4e27b8cb9b7438de7444bf0f789feb",
+    "revision": "6f927964b2a9d4214928d4213da29bcd",
     "url": "/eli-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eli-portfolio/static/css/2.ee804979.chunk.css"
   },
   {
-    "revision": "a3825121248c946c4cef",
+    "revision": "9436bd7f810c0a03f8b9",
     "url": "/eli-portfolio/static/css/main.dc3dac1d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eli-portfolio/static/js/2.4e22099f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3825121248c946c4cef",
-    "url": "/eli-portfolio/static/js/main.7b5b0072.chunk.js"
+    "revision": "9436bd7f810c0a03f8b9",
+    "url": "/eli-portfolio/static/js/main.6112cf21.chunk.js"
   },
   {
     "revision": "e6929e93da56423b9ae2",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eli-portfolio/static/media/CuachCuach_1.528af4a3.png"
   },
   {
-    "revision": "20256e2749b34f46cb71870678043ca0",
-    "url": "/eli-portfolio/static/media/ElisaCV.20256e27.pdf"
+    "revision": "4c223b1173dbc71986bce907711f2b52",
+    "url": "/eli-portfolio/static/media/ElisaCV.4c223b11.pdf"
   },
   {
     "revision": "ca3ea8fa9f5c1d60952e14e7b6dc005d",
