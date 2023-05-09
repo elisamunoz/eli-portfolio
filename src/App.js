@@ -8,6 +8,7 @@ import {
 import { PATHS } from 'const';
 import Layout from 'ui/layout/index';
 import PageHome from 'pages/home';
+import PageCountries from 'pages/projects/countries';
 import PageHuemul from 'pages/projects/huemul';
 import PageBirdsongs from 'pages/projects/birdsongs';
 import PageStitchpirations from 'pages/projects/stitchpirations';
@@ -21,6 +22,9 @@ const App = () => (
       <Switch>
         <Route exact path={PATHS.HOME}>
           <PageHome />
+        </Route>
+        <Route path={PATHS.PROJECTS_COUNTRIES}>
+          <PageCountries />
         </Route>
         <Route path={PATHS.PROJECTS_HUEMUL}>
           <PageHuemul />

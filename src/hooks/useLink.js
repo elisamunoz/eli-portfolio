@@ -7,6 +7,7 @@ const useLink = (iniValue = false): any => {
 
   const gotTo = {
     home: useCallback(() => history.push(PATHS.HOME), [history]),
+    projectCountries: useCallback(() => history.push(PATHS.PROJECTS_COUNTRIES), [history]),
     projectHuemul: useCallback(() => history.push(PATHS.PROJECTS_HUEMUL), [history]),
     projectBirdsongs: useCallback(() => history.push(PATHS.PROJECTS_BIRDSONGS), [history]),
     projectStichpirations: useCallback(() => history.push(PATHS.PROJECTS_STITCHPIRATIONS), [history]),

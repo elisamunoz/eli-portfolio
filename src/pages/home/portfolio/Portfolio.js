@@ -4,6 +4,7 @@ import { useLink } from 'hooks/useLink';
 import Card from 'ui/components/Card';
 import Section from 'ui/components/Section';
 import styles from './Portfolio.module.scss';
+import countriesPhoto from 'assets/img/portfolio/Countries_1.png';
 import huemulPhoto from 'assets/img/portfolio/Huemul_1.png';
 import birdsongsPhoto from 'assets/img/portfolio/Birdsongs_1.png';
 import stitchsPhoto from 'assets/img/portfolio/Stitchpirations_1.png';
@@ -21,6 +22,12 @@ const Portfolio = () => {
       title='Portfolio'
     >
       <Card.Group>
+        <Card
+          image={countriesPhoto}
+          onClickMore={goTo.projectCountries}
+          title='Countries Info Cards'
+          desc='This app gets information from the countries of the world.'
+        />
         <Card
           image={huemulPhoto}
           onClickMore={goTo.projectHuemul}

@@ -6,6 +6,7 @@ const BASE_PATH = !isProduction
 
 export const PATHS = {
   HOME: `${BASE_PATH}`,
+  PROJECTS_COUNTRIES: `${BASE_PATH}projects/countries`,
   PROJECTS_HUEMUL: `${BASE_PATH}projects/huemul`,
   PROJECTS_BIRDSONGS: `${BASE_PATH}projects/birdsongs`,
   PROJECTS_STITCHPIRATIONS: `${BASE_PATH}projects/stitchpirations`,
@@ -21,6 +22,7 @@ export const HOME_SECTIONS = {
 
 export const linkTo = {
   home: PATHS.HOME,
+  projectsCountries: PATHS.PROJECTS_COUNTRIES,
   projectsHuemul: PATHS.PROJECTS_HUEMUL,
   projectsBirdsongs: PATHS.PROJECTS_BIRDSONGS,
   projectsStitchspirations: PATHS.PROJECTS_STITCHPIRATIONS,
