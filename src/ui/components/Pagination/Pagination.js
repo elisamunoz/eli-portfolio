@@ -1,13 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import styles from './Pagination.module.scss';
 
 const PaginationDot = ({
   isActive = false,
-  onClick
+  onClick,
+  href
 }) => (
-  <div 
+  <a 
+    href={href}
     className={classnames(styles.paginationDot, isActive && styles.isActive)} 
     onClick={onClick}
   />
@@ -16,7 +17,8 @@ const PaginationDot = ({
 const Pagination = ({
   currentPage = 0,
   totalPages = 1,
-  onClick
+  onClick,
+  href
 }) => (
   <div 
     className={classnames(styles.pagination)}
@@ -25,6 +27,7 @@ const Pagination = ({
         .fill("")
         .map((value, i) => (
           <PaginationDot
+            href={href}
             key={i}
             isActive={currentPage === i}
             onClick={() => onClick(i)}

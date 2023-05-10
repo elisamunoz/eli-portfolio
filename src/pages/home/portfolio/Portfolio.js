@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { HOME_SECTIONS } from 'const';
 import { useLink } from 'hooks/useLink';
+import { linkTo } from '../../../const';
 import Card from 'ui/components/Card';
 import Section from 'ui/components/Section';
 import Pagination from 'ui/components/Pagination';
@@ -43,6 +44,8 @@ const Portfolio = () => {
         )}
       </Card.Group>
       <Pagination
+        href={linkTo.homePortfolio} 
+        label='Portfolio'
         currentPage={currentPage}
         totalPages={totalPages}
         onClick={handlePaginationClick}
