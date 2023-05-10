@@ -7,7 +7,7 @@ import Pic2 from 'assets/img/portfolio/Movies_2.png'
 
 const Page = () => (
   <View
-    title='Birdsongs of the World'
+    title='Movie Picker'
   >
     <Article
       img={Pic2}
