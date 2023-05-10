@@ -11,6 +11,7 @@ export const PATHS = {
   PROJECTS_BIRDSONGS: `${BASE_PATH}projects/birdsongs`,
   PROJECTS_STITCHPIRATIONS: `${BASE_PATH}projects/stitchpirations`,
   PROJECTS_CATCUS: `${BASE_PATH}projects/catcus`,
+  PROJECTS_MOVIES: `${BASE_PATH}projects/movies`,
 }
 
 export const HOME_SECTIONS = {
@@ -27,6 +28,7 @@ export const linkTo = {
   projectsBirdsongs: PATHS.PROJECTS_BIRDSONGS,
   projectsStitchspirations: PATHS.PROJECTS_STITCHPIRATIONS,
   projectsCatcus: PATHS.PROJECTS_CATCUS,
+  projectsMovies: PATHS.PROJECTS_MOVIES,
 
   // Home Sections
   homeHome: `${PATHS.HOME}#${HOME_SECTIONS.HOME}`,
