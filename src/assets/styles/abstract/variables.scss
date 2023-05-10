@@ -40,6 +40,16 @@ $color-border: #f5f5f5;
 $color-status-success: $green;
 $color-status-error: $red;
 
+/* ------------------ */
+/* --- Pagination --- */
+/* ------------------ */
+
+$pagination-margin: 1em 0;
+$pagination-dot-color-size: .7em;
+$pagination-dot-color-margin: .2em;
+$pagination-dot-color: $color-sec-lighter;
+$pagination-dot-is-active-color: $color-sec;
+
 /* -------------- */
 /* --- Others --- */
 /* -------------- */

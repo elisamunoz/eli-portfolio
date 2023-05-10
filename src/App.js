@@ -13,6 +13,7 @@ import PageHuemul from 'pages/projects/huemul';
 import PageBirdsongs from 'pages/projects/birdsongs';
 import PageStitchpirations from 'pages/projects/stitchpirations';
 import PageCatcus from 'pages/projects/catcus';
+import PageMovies from 'pages/projects/movies';
 import 'assets/styles/index.scss';
 
 const App = () => (
@@ -37,6 +38,9 @@ const App = () => (
         </Route>
         <Route path={PATHS.PROJECTS_CATCUS}>
           <PageCatcus />
+        </Route>
+        <Route path={PATHS.PROJECTS_MOVIES}>
+          <PageMovies />
         </Route>
         <Route path="*">
           <PageHome />
