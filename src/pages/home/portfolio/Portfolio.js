@@ -1,19 +1,25 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { HOME_SECTIONS } from 'const';
 import { useLink } from 'hooks/useLink';
 import Card from 'ui/components/Card';
 import Section from 'ui/components/Section';
+import Pagination from 'ui/components/Pagination';
 import styles from './Portfolio.module.scss';
-import countriesPhoto from 'assets/img/portfolio/Countries_1.png';
-import huemulPhoto from 'assets/img/portfolio/Huemul_1.png';
-import birdsongsPhoto from 'assets/img/portfolio/Birdsongs_1.png';
-import stitchsPhoto from 'assets/img/portfolio/Stitchpirations_1.png';
-import catcusPhoto from 'assets/img/portfolio/Catcus_1.png';
-import portfolioPhoto from 'assets/img/portfolio/Portfolio_1.png';
-import cuachCuachPhoto from 'assets/img/portfolio/CuachCuach_1.png';
+import projects from './projects';
+
+const CARDS_PER_PAGE = 6;
 
 const Portfolio = () => {
   const [goTo] = useLink();
+  const [currentPage, setCurrentPage] = useState(0)
+  
+  const totalPages = Math.ceil(projects.length / CARDS_PER_PAGE)
+  const handlePaginationClick = (newPage = 0) => {
+    setCurrentPage(newPage)
+  }
+
+  const firstItemToShow = currentPage * CARDS_PER_PAGE;
+  const lastItemToShow = firstItemToShow + CARDS_PER_PAGE;
 
   return (
     <Section
@@ -22,49 +28,25 @@ const Portfolio = () => {
       title='Portfolio'
     >
       <Card.Group>
-        <Card
-          image={countriesPhoto}
-          onClickMore={goTo.projectCountries}
-          title='Countries Info Cards'
-          desc='This app gets information from the countries of the world.'
-        />
-        <Card
-          image={huemulPhoto}
-          onClickMore={goTo.projectHuemul}
-          title='The Huemul Organization'
-          desc='This Organization is a NGO created to conserve the endangered Huemul in Chilean Patagonia.'
-        />
-        <Card
-          image={birdsongsPhoto}
-          onClickMore={goTo.projectBirdsongs}
-          title='Birdsongs of the World'
-          desc='Birdsongs of the World is a website dedicated to sharing bird sounds from all over the world.'
-        />
-        <Card
-          image={stitchsPhoto}
-          onClickMore={goTo.projectStichpirations}
-          title='Stitchpirations'
-          desc='A place for knitters, crocheters and sewers to keep update to new patterns and ideas.'
-        />
-        <Card
-          image={catcusPhoto}
-          onClickMore={goTo.projectCatcus}
-          title='Catcus'
-          desc='Catcus is an online plant store, we have something for everyone.'
-        />
-        <Card
-          image={portfolioPhoto}
-          onClickMore={goTo.projectPortfolio}
-          title='Portfolio'
-          desc='This is my portfolio. Where I will be posting the projects I will be working on.'
-        />
-        <Card
-          image={cuachCuachPhoto}
-          onClickMore={goTo.projectCuachCuach}
-          title='Cuach Cuach (Work in progress)'
-          desc='Cuach Cuach is a small workshop, they do art, architecture and sewing. They trusted me to do their website.'
-        />
+        {projects
+        .slice(firstItemToShow, lastItemToShow)
+        .map((project, i) => (
+          <Card
+            key={project.linkPage}
+            image={project.image}
+            onClickMore={goTo[project.linkPage]}
+            title={project.title}
+            desc={project.desc}
+          />
+        
+        )
+        )}
       </Card.Group>
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onClick={handlePaginationClick}
+      />
       <div className={styles.llama} />
     </Section>
   )
