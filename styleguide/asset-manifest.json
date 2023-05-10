@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/eli-portfolio/build/bundle.41fb9876.js",
+    "main.js": "/eli-portfolio/build/bundle.6be4e331.js",
     "main.css": "/eli-portfolio/static/css/main.7df92a02.css",
     "fontawesome-webfont.svg?v=4.7.0": "/eli-portfolio/c1e38fd9e0e74ba58f7a.svg?v=4.7.0",
     "demo.jpg": "/eli-portfolio/049bfe6e04c8411c055a.jpg",
@@ -12,7 +12,7 @@
     "index.html": "/eli-portfolio/index.html"
   },
   "entrypoints": [
-    "build/bundle.41fb9876.js",
+    "build/bundle.6be4e331.js",
     "static/css/main.7df92a02.css"
   ]
 }

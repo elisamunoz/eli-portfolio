@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/eli-portfolio/static/css/main.fcbd71c1.css",
-    "main.js": "/eli-portfolio/static/js/main.b26ccb2c.js",
+    "main.css": "/eli-portfolio/static/css/main.bc187772.css",
+    "main.js": "/eli-portfolio/static/js/main.20f869a5.js",
     "static/media/Stitchpirations_1.png": "/eli-portfolio/static/media/Stitchpirations_1.7ea2c488071469e041c6.png",
     "static/media/Catcus_1.png": "/eli-portfolio/static/media/Catcus_1.b6527ef6fcb09675b098.png",
     "static/media/Huemul_1.png": "/eli-portfolio/static/media/Huemul_1.61c6d7240da1230606b9.png",
+    "static/media/Portfolio_1.png": "/eli-portfolio/static/media/Portfolio_1.69718e7313000fe1e06d.png",
     "static/media/Birdsongs_1.png": "/eli-portfolio/static/media/Birdsongs_1.2f9644be2aa82feecf3b.png",
-    "static/media/Portfolio_1.png": "/eli-portfolio/static/media/Portfolio_1.f15de4b06ebf11eafc03.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/eli-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Stitchpirations_4.png": "/eli-portfolio/static/media/Stitchpirations_4.cd18576182abd6ad33a4.png",
     "static/media/llama.gif": "/eli-portfolio/static/media/llama.289cbb7d4abfd00cf7a6.gif",
     "static/media/Catcus_4.png": "/eli-portfolio/static/media/Catcus_4.fb9904f32cb2c22eb21f.png",
     "static/media/Huemul_4.png": "/eli-portfolio/static/media/Huemul_4.ea71088f6a922e6d6814.png",
+    "static/media/Movies_1.png": "/eli-portfolio/static/media/Movies_1.1249075f7b16a8a12e81.png",
     "static/media/home.jpg": "/eli-portfolio/static/media/home.dc93a7ca956da8410ec9.jpg",
     "static/media/Birdsongs_4.png": "/eli-portfolio/static/media/Birdsongs_4.1c0c833ec1caea94fc1a.png",
     "static/media/fontawesome-webfont.eot": "/eli-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/CuachCuach_1.png": "/eli-portfolio/static/media/CuachCuach_1.3101ec61ad4eeeaaef81.png",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/eli-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Movies_2.png": "/eli-portfolio/static/media/Movies_2.c0ce5086b12ece50e10f.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/eli-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/ElisaCV.pdf": "/eli-portfolio/static/media/ElisaCV.3bcee1318cd723657a2f.pdf",
     "static/media/about.jpg": "/eli-portfolio/static/media/about.7e713d1ecad084592073.jpg",
@@ -26,11 +28,11 @@
     "static/media/elisa.jpg": "/eli-portfolio/static/media/elisa.a8f252b388e52919dbf6.jpg",
     "static/media/Countries_1.png": "/eli-portfolio/static/media/Countries_1.c5ac8961bf155c93fb8f.png",
     "index.html": "/eli-portfolio/index.html",
-    "main.fcbd71c1.css.map": "/eli-portfolio/static/css/main.fcbd71c1.css.map",
-    "main.b26ccb2c.js.map": "/eli-portfolio/static/js/main.b26ccb2c.js.map"
+    "main.bc187772.css.map": "/eli-portfolio/static/css/main.bc187772.css.map",
+    "main.20f869a5.js.map": "/eli-portfolio/static/js/main.20f869a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcbd71c1.css",
-    "static/js/main.b26ccb2c.js"
+    "static/css/main.bc187772.css",
+    "static/js/main.20f869a5.js"
   ]
 }
