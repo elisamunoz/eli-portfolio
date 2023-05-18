@@ -1,5 +1,20 @@
   @import "assets/styles/abstract/index.scss";
 
+
+@keyframes fadeInAnimation {
+  from {
+    // transform: translate(-100px);
+    opacity: 0;
+  }
+  to {
+    // transform: translate(0);
+    opacity: 1;
+  }
+
+
+  
+}
+
 .card {
   border-radius: $border-radius;
   background: $color-button-text;
@@ -10,6 +25,9 @@
   width: 100%;
   margin: 5% auto;
   overflow: hidden;
+
+  animation-name: fadeInAnimation;
+  animation-duration: 3s;
 
   @media (min-width: $breakpoint-tablet) {
     width: 46%;
@@ -37,9 +55,12 @@
   left: 0;
   bottom: 0;
   right: 0;
+  transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+  opacity: 1;
 
   &:hover {
-    opacity: 0.5;
+    opacity: .5;
+    scale: 1.05;
   }
 }
 

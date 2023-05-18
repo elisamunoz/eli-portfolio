@@ -39,9 +39,7 @@ const Portfolio = () => {
             title={project.title}
             desc={project.desc}
           />
-        
-        )
-        )}
+      ))}
       </Card.Group>
       <Pagination
         href={linkTo.homePortfolio} 
