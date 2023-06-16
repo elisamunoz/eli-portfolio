@@ -32,15 +32,6 @@ const Page = () => {
           
         </List>
 
-        <List title='Libraries:'>
-          <ListItem>JQuery (3.2.1)</ListItem>
-          <ListItem>Bootstrap (4.3.1)</ListItem>
-          <ListItem>Font Awesome 5.11.2</ListItem>
-          <ListItem>Google Maps API</ListItem>
-          <ListItem>Data Table</ListItem>
-          <ListItem>Google Fonts</ListItem>
-        </List>
-
         <List title='Deployment:'>
           <ListItem>This website is hosted and deployed using GitHub pages.</ListItem>
           <List.Item>Link to the GitHub repository <LinkText href='https://github.com/elisamunoz/pokedex' caption="here" /></List.Item>
