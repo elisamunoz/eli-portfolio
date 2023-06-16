@@ -6,8 +6,15 @@ import catcusPhoto from 'assets/img/portfolio/Catcus_1.png';
 import portfolioPhoto from 'assets/img/portfolio/Portfolio_1.png';
 import cuachCuachPhoto from 'assets/img/portfolio/CuachCuach_1.png';
 import moviesPhoto from 'assets/img/portfolio/Movies_1.png';
+import pokedexPhoto from 'assets/img/portfolio/Pokedex_1.png';
 
-export default [
+export const projects = [
+  {
+    title: "Elisa's Pokedex",
+    desc: "Check my Pokedex and get your favorite Pokemon's information.",
+    image: pokedexPhoto,
+    linkPage: 'projectPokedex',
+  },
   {
     title: 'Countries Info Cards',
     desc: 'This app gets information from the countries of the world.',

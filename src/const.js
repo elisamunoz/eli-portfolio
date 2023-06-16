@@ -12,6 +12,7 @@ export const PATHS = {
   PROJECTS_STITCHPIRATIONS: `${BASE_PATH}projects/stitchpirations`,
   PROJECTS_CATCUS: `${BASE_PATH}projects/catcus`,
   PROJECTS_MOVIES: `${BASE_PATH}projects/movies`,
+  PROJECTS_POKEDEX: `${BASE_PATH}projects/pokedex`,
 }
 
 export const HOME_SECTIONS = {
@@ -29,6 +30,7 @@ export const linkTo = {
   projectsStitchspirations: PATHS.PROJECTS_STITCHPIRATIONS,
   projectsCatcus: PATHS.PROJECTS_CATCUS,
   projectsMovies: PATHS.PROJECTS_MOVIES,
+  projectsPokedex: PATHS.PROJECTS_POKEDEX,
 
   // Home Sections
   homeHome: `${PATHS.HOME}#${HOME_SECTIONS.HOME}`,

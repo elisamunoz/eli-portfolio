@@ -14,6 +14,7 @@ import PageBirdsongs from 'pages/projects/birdsongs';
 import PageStitchpirations from 'pages/projects/stitchpirations';
 import PageCatcus from 'pages/projects/catcus';
 import PageMovies from 'pages/projects/movies';
+import PagePokedex from 'pages/projects/pokedex';
 import 'assets/styles/index.scss';
 
 const App = () => (
@@ -41,6 +42,9 @@ const App = () => (
         </Route>
         <Route path={PATHS.PROJECTS_MOVIES}>
           <PageMovies />
+        </Route>
+        <Route path={PATHS.PROJECTS_POKEDEX}>
+          <PagePokedex />
         </Route>
         <Route path="*">
           <PageHome />

@@ -2,7 +2,7 @@ import { useMemo, useCallback } from 'react';
 import { useHistory } from 'react-router-dom';
 import { PATHS } from 'const';
 
-const useLink = (iniValue = false): any => {
+const useLink = (iniValue = false) => {
   const history = useHistory();
 
   const gotTo = {
@@ -15,6 +15,7 @@ const useLink = (iniValue = false): any => {
     projectPortfolio: useCallback(() => history.push(PATHS.PROJECTS_PORTFOLIO), [history]),
     projectCuachCuach: useCallback(() => history.push(PATHS.PROJECTS_CuachCuach), [history]),
     projectMovies: useCallback(() => history.push(PATHS.PROJECTS_MOVIES), [history]),
+    projectPokedex: useCallback(() => history.push(PATHS.PROJECTS_POKEDEX), [history]),
   }
 
   return useMemo(() =>
