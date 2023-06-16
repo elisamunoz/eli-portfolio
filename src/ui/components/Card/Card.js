@@ -11,7 +11,7 @@ const Card = ({
   image,
   onClickMore,
 }) => (
-  <div className={styles.card}>
+  <div onClick={onClickMore} className={styles.card}>
     <div className={styles.imgContainer}>
       <Img className={styles.image} src={image} />
     </div>
@@ -21,7 +21,7 @@ const Card = ({
           <h2 className={styles.title}>{title}</h2>
           <p className={styles.desc}>{desc}</p>
           {onClickMore &&
-            <Button onClick={onClickMore}>
+            <Button>
               More
             </Button>
           }
