@@ -6,7 +6,7 @@ import Card from 'ui/components/Card';
 import Section from 'ui/components/Section';
 import Pagination from 'ui/components/Pagination';
 import styles from './Portfolio.module.scss';
-import projects from './projects';
+import { projects } from './projects';
 
 const CARDS_PER_PAGE = 6;
 

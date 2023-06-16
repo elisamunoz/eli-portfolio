@@ -2,9 +2,10 @@ import React from 'react';
 import View from 'pages/projects/ProjectDetailView';
 import Article from 'ui/components/Article';
 import LinkText from 'ui/components/LinkText';
+import P from 'ui/components/P';
+import Break from 'ui/components/Break';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Birdsongs_4.png'
-// import styles from './PageBirdsongs.module.scss';
 
 const Page = () => (
   <View
@@ -13,13 +14,13 @@ const Page = () => (
     <Article
       img={Pic4}
     >
-      <p>
+      <P>
         Birdsongs of the World is a website dedicated to sharing bird sounds from all over the world. Whether you are a research scientist, a birder, or simply curious about a sound you heard out the window, we invite you to listen, download, and explore the bird sound recordings in the collection.
-        <br />
+        <Break />
         It connects to a third party API to obtain birdsong and geolocate some of the information using Google Maps.
         <br />
         This website has been possible thanks to the <LinkText href="https://www.xeno-canto.org/article/153" caption="Xeno-Canto Api" />.
-      </p>
+      </P>
     
     
       <List title='What technologies I used?'>

@@ -2,6 +2,7 @@ import React from 'react';
 import View from 'pages/projects/ProjectDetailView';
 import Article from 'ui/components/Article';
 import LinkText from 'ui/components/LinkText';
+import P from 'ui/components/P';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Stitchpirations_4.png';
 
@@ -12,9 +13,9 @@ const Page = () => (
     <Article
       img={Pic4}
     >
-      <p>
+      <P>
         This website is a dedicated to people that enjoy crocheting,knitting and sewing as hobby or way of life. The purpose of the app is to aggregate different patterns and articles related to the theme. The user is able to create, read, update and delete (CRUD) entries.
-      </p>
+      </P>
 
       <List title='What technologies I used?'>
         <List.Item>HTML</List.Item>

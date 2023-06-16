@@ -2,6 +2,7 @@ import React from 'react';
 import View from 'pages/projects/ProjectDetailView';
 import Article from 'ui/components/Article';
 import LinkText from 'ui/components/LinkText';
+import P from 'ui/components/P';
 import { List, ListItem } from 'ui/components/List';
 import Pic2 from 'assets/img/portfolio/Movies_2.png'
 
@@ -12,9 +13,9 @@ const Page = () => (
     <Article
       img={Pic2}
     >
-      <p>
+      <P>
         You'll be presented with a question and some movie options, when you click one of them, you'll see a new question, with new options. Eventually you'll be presented with a modal that redirects you to the IMDb website of the last picked movie. This is a responsive app.
-      </p>
+      </P>
     
     
       <List title='What technologies I used?'>

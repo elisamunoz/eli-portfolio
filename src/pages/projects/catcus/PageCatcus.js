@@ -2,6 +2,7 @@ import React from 'react';
 import View from 'pages/projects/ProjectDetailView';
 import Article from 'ui/components/Article';
 import LinkText from 'ui/components/LinkText';
+import P from 'ui/components/P';
 import { List, ListItem } from 'ui/components/List';
 import Pic4 from 'assets/img/portfolio/Catcus_4.png'
 // import styles from './PageCatcus.module.scss';
@@ -13,9 +14,9 @@ const Page = () => (
     <Article
       img={Pic4}
     >
-      <p>
+      <P>
         Catcus Shop is an eCommerce website dedicated to sell plants. This project is to support beginner, or advanced gardeners or what we know as “plant parents”, in a greeny-colorful journey. Gardening has proven to be beneficial for one’s mood. In fact, gardening has even be prescribed in some situations where patients experience such things as anxiety and depression.'
-      </p>
+      </P>
       
       <List title='What technologies I used?'>
         <List.Item>HTML</List.Item>
