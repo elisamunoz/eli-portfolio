@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eli-portfolio/static/css/main.70d25808.css",
-    "main.js": "/eli-portfolio/static/js/main.9d95d277.js",
+    "main.css": "/eli-portfolio/static/css/main.bde9e5a8.css",
+    "main.js": "/eli-portfolio/static/js/main.a55fb8d0.js",
     "static/media/Stitchpirations_1.png": "/eli-portfolio/static/media/Stitchpirations_1.7ea2c488071469e041c6.png",
     "static/media/Catcus_1.png": "/eli-portfolio/static/media/Catcus_1.b6527ef6fcb09675b098.png",
     "static/media/Huemul_1.png": "/eli-portfolio/static/media/Huemul_1.61c6d7240da1230606b9.png",
@@ -24,15 +24,17 @@
     "static/media/about.jpg": "/eli-portfolio/static/media/about.7e713d1ecad084592073.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/eli-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/llama.jpg": "/eli-portfolio/static/media/llama.0b2a5bb5d6d260c8e84f.jpg",
+    "static/media/Pokedex_2.png": "/eli-portfolio/static/media/Pokedex_2.43a275e23de007ec149b.png",
     "static/media/Countries_2.png": "/eli-portfolio/static/media/Countries_2.5730e3bdd015d11baaa9.png",
+    "static/media/Pokedex_1.png": "/eli-portfolio/static/media/Pokedex_1.463da4c3d5ce5d338ff2.png",
     "static/media/elisa.jpg": "/eli-portfolio/static/media/elisa.a8f252b388e52919dbf6.jpg",
     "static/media/Countries_1.png": "/eli-portfolio/static/media/Countries_1.c5ac8961bf155c93fb8f.png",
     "index.html": "/eli-portfolio/index.html",
-    "main.70d25808.css.map": "/eli-portfolio/static/css/main.70d25808.css.map",
-    "main.9d95d277.js.map": "/eli-portfolio/static/js/main.9d95d277.js.map"
+    "main.bde9e5a8.css.map": "/eli-portfolio/static/css/main.bde9e5a8.css.map",
+    "main.a55fb8d0.js.map": "/eli-portfolio/static/js/main.a55fb8d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.70d25808.css",
-    "static/js/main.9d95d277.js"
+    "static/css/main.bde9e5a8.css",
+    "static/js/main.a55fb8d0.js"
   ]
 }

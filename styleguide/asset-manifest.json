@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/eli-portfolio/build/bundle.a9c937d9.js",
-    "main.css": "/eli-portfolio/static/css/main.06a5fcda.css",
+    "main.js": "/eli-portfolio/build/bundle.6289d53a.js",
+    "main.css": "/eli-portfolio/static/css/main.c73cb76f.css",
     "fontawesome-webfont.svg?v=4.7.0": "/eli-portfolio/c1e38fd9e0e74ba58f7a.svg?v=4.7.0",
     "demo.jpg": "/eli-portfolio/049bfe6e04c8411c055a.jpg",
     "fontawesome-webfont.eot": "/eli-portfolio/8b43027f47b20503057d.eot",
@@ -12,7 +12,7 @@
     "index.html": "/eli-portfolio/index.html"
   },
   "entrypoints": [
-    "build/bundle.a9c937d9.js",
-    "static/css/main.06a5fcda.css"
+    "build/bundle.6289d53a.js",
+    "static/css/main.c73cb76f.css"
   ]
 }
